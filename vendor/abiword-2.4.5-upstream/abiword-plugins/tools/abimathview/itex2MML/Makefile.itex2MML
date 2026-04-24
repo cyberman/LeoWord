@@ -1,0 +1,24 @@
+all:	y.tab.c lex.yy.c
+
+YYPREFIX=itex2MML_yy
+
+#YACC=yacc
+YACC=bison -y
+
+y.tab.c:	itex2MML.y
+		$(YACC) -p $(YYPREFIX) -d itex2MML.y
+
+lex.yy.c:	itex2MML.l
+		flex -P$(YYPREFIX) -olex.yy.c itex2MML.l
+
+y.tab.o:	y.tab.c itex2MML.h
+		$(CC) -c -o y.tab.o y.tab.c
+
+lex.yy.o:	lex.yy.c y.tab.c itex2MML.h
+		$(CC) -c -o lex.yy.o lex.yy.c
+
+itex2MML:	lex.yy.o y.tab.o itex2MML.cc itex2MML.h
+		$(CXX) -o itex2MML lex.yy.o y.tab.o itex2MML.cc
+
+clean:		
+		rm -f y.tab.? lex.yy.c itex2MML *.o

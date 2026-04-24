@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/CocoaAbi.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>AbiWord 2.2 for MacOSX - Introduction</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+
+<style type="text/css">
+<!--
+.style1 {font-family: "Courier New", Courier, mono}
+-->
+</style>
+<!-- InstanceEndEditable -->
+
+
+
+<link href="InvisibleAnt/CocoaAbi.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="128"><img src="InvisibleAnt/images/macosx.png" alt="AbiWord for MacOSX Application Icon" width="128" height="128" /></td>
+    <td valign="top"><h1>AbiWord 2.4</h1>
+      <p><em><strong>Cocoa version  for MacOSX.  </strong></em></p></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><table width="100" border="0" cellspacing="2" cellpadding="0">
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="README.html">Introduction</a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="InvisibleAnt/Copying.html">License</a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="InvisibleAnt/Guide.html">Guide</a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="InvisibleAnt/Templates.html">Templates</a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="InvisibleAnt/Language.html">Language</a></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="sidemenu"><a href="InvisibleAnt/Dictionaries.html">Dictionaries</a></td>
+      </tr>
+    </table></td>
+    <td valign="top"><!-- InstanceBeginEditable name="Content" -->
+      <h1>Introduction</h1>
+      <p><a href="http://www.abisource.com/">AbiWord</a> is a free, cross-platform word processor. For a quick overview see <a href="http://www.abisource.com/tour/">http://www.abisource.com/tour/</a>.</p>
+      <p>AbiWord for MacOSX was developed primarily by Hubert Figuiere, with occasional help from Francis Franklin (the current maintainer of the Cocoa port), Dom Lachowicz and Pat Lam. Thanks also to Ryan Pavlik, Remi Payette and Karl Koehler. (Let me know if your name also belongs in this list.) Of course, the full credits list for AbiWord is hundreds of names long...</p>
+      <p>AbiWord's plug-in architecture works now, and the WordPerfect and HTML importers, as well as some other plug-ins, are bundled with this release.</p>
+      <h2>Warning!</h2>
+      <p>CocoaAbi's  text rendering system is currently being rewritten; AbiWord 2.2.x displays text slightly better at the moment and you can get the latest official builds here: <a href="http://www.abisource.com/downloads/abiword/">http://www.abisource.com/downloads/abiword/</a>.</p>
+      <h2>Equations</h2>
+      <p>AbiWord 2.4 has support for displaying <a href="http://www.w3.org/Math/">MathML</a> equations using the excellent <a href="http://helm.cs.unibo.it/mml-widget/">GtkMathView</a> and also for entering equations in a LaTeX format (based on <a href="http://pear.math.pitt.edu/mathzilla/itex2mml.html">itex2MML</a> and <a href="http://golem.ph.utexas.edu/%7Edistler/blog/archives/000640.html">itexToMML</a>).</p>
+      <p>On Mac OS X, this feature is available <strong>only for OS X 10.3 and later</strong>.</p>
+      <p>To make this  work, you will need to download and install the Computer Modern fonts. You can get these from <a href="http://www.mozilla.org/projects/mathml/fonts/">Mozilla</a> - see the section &quot;TeX's Computer Modern Fonts&quot; and <strong>read the license</strong> and, if you use Mozilla, the warning!</p>
+      <p align="center"><a href="InvisibleAnt/images/InsertEquation.png"><img src="InvisibleAnt/images/InsertEquation-HalfSize.png" width="475" height="333" border="0" /></a></p>
+      <p>You can insert equations using the LaTeX dialog (Insert-&gt;Equation-&gt;From LaTeX... menu) or you can import MathML files. </p>
+      <h2>Important!</h2>
+      <p>AbiWord for  MacOSX is not as complete, well-tested and bug-free as the UNIX and Windows versions, in particular:</p>
+      <ul><li>Bidirectional text input has improved, but I'm still not happy with it.</li>
+        <li>Unrecognised font names are not handled intelligently and can lead to vertically displaced text. </li>
+        <li>Various minor (but annoying!) drawing glitches.</li>
+      </ul>
+      <p>No doubt other problems also. Please report bugs at AbiWord's <a href="http://bugzilla.abisource.com/">Bugzilla</a>. For the latest developments of AbiWord for MacOSX see <a href="http://www.abisource.com/%7Efjf/">fjf's AbiWord page</a>.</p>
+      <h2>System Requirements</h2>
+      <p>AbiWord for MacOSX is currently developed on MacOSX 10.3, but release builds should work on MacOSX 10.2 as well. (There won't be any version that will run on prior versions, so please don't ask.)</p>
+        <h2>Help Needed</h2>
+        <p>You don't need to be an experienced software developer in order to help out, there's <em>plenty</em> to do!</p>
+        <ul>
+          <li>Updating the documentation to reflect changed features or new features. And you could write a tutorial: <em>The Beginners Guide to Crashing AbiWord</em>, or something like that. In fact, are you bilingual? Then how about translating the documentation!</li>
+          <li>Making sure that AbiWord behaves the way it's supposed to behave. Those developers, <em>tsk tsk</em>, are always too interested in new features and seldom actually use AbiWord. Someone needs to make sure the users are getting what they're (not) paying for.</li>
+          <li>You could compose some new templates...</li>
+        </ul>
+        <p>So, plenty to do, and if you feel like programming then there's even more. Subscribe to the <a href="http://www.abisource.com/developers/">AbiWord Developers</a> mailing list (abiword-dev) and/or join us on <a href="http://www.abisource.com/developers/">IRC</a> (irc.gimp.org #AbiWord) and introduce yourself. Don't be afraid - we're a friendly bunch. Usually...</p>
+        <p>&nbsp;</p>
+    <!-- InstanceEndEditable --></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td valign="top"><p><em>This page is Copyright &copy;2004-2005 </em><em>the AbiSource community. All rights reserved.</em></p>
+      <p><em><strong>AbiSource</strong>, <strong>AbiSuite</strong>, and <strong>AbiWord</strong> are trademarks of Dom Lachowicz. All other product names, company names, or logos cited herein are property of their respective owners.</em></p>
+      <p><em><a href="http://www.abisource.com/">AbiWord</a> is free software, subject to the <a href="InvisibleAnt/Copying.html">GNU General Public License</a>.</em></p></td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

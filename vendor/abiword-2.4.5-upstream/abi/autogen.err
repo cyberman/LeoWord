@@ -1,0 +1,6 @@
+configure.ac: installing `ac-helpers/install-sh'
+configure.ac: installing `ac-helpers/missing'
+src/af/ev/qnx/GNUmakefile.am: installing `ac-helpers/depcomp'
+src/af/tf/GNUmakefile.am:22: ABI_OBJECTS multiply defined in condition TRUE ...
+includes.mk:192: ... `ABI_OBJECTS' previously defined here
+src/af/tf/GNUmakefile.am:19:   `includes.mk' included from here

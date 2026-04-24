@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="src_from_PNG"
+	SccProjectName=""
+	SccLocalPath=""
+	Keyword="MakeFileProj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory=".\..\abi\src\MSVC71_Debug\obj\src_from_PNG"
+			IntermediateDirectory=".\..\abi\src\MSVC71_Debug\obj\src_from_PNG"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\Debug/src_from_PNG.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory=".\..\abi\src\MSVC71_Release\obj\src_from_PNG"
+			IntermediateDirectory=".\..\abi\src\MSVC71_Release\obj\src_from_PNG"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE">
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCMIDLTool"
+				TypeLibraryName=".\..\abi\src\MSVC71_Release\obj/src_from_PNG.tlb"
+				HeaderFileName=""/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath="..\abi\src\wp\ap\xp\sidebar.png">
+			<FileConfiguration
+				Name="Debug|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine="..\abi\src\MSVC71_Debug\bin\cdump.exe &quot;$(InputPath)&quot; g_pngSidebar &gt; .\ap_wp_sidebar.cpp"
+					Outputs=".\ap_wp_sidebar.cpp"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine="..\abi\src\MSVC71_Release\bin\cdump.exe &quot;$(InputPath)&quot; g_pngSidebar &gt; ./ap_wp_sidebar.cpp"
+					Outputs=".\ap_wp_sidebar.cpp"/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="..\abi\src\wp\ap\xp\splash.png">
+			<FileConfiguration
+				Name="Debug|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine="..\abi\src\MSVC71_Debug\bin\cdump.exe &quot;$(InputPath)&quot; g_pngSplash &gt; .\ap_wp_splash.cpp
+"
+					Outputs=".\ap_wp_splash.cpp"/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32">
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Creating src file from $(InputPath)"
+					CommandLine="..\abi\src\MSVC71_Release\bin\cdump.exe &quot;$(InputPath)&quot; g_pngSplash &gt; ./ap_wp_splash.cpp
+"
+					Outputs=".\ap_wp_splash.cpp"/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

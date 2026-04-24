@@ -1,0 +1,8 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_GRAMMAR_CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_GRAMMAR_LDFLAGS@ @PLATFORM_LDFLAGS@
+
+noinst_LTLIBRARIES = liblinkgrammarwrap.la
+liblinkgrammarwrap_la_SOURCES = LinkGrammarWrap.cpp LinkGrammarWrap.h
+liblinkgrammarwrap_la_LIBADD= @ABI_LIBS@
+liblinkgrammarwrap_la_LDFLAGS = -no-undefined -module -avoid-version

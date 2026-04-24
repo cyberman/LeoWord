@@ -1,0 +1,42 @@
+## AbiSource Applications
+## Copyright (C) 2004 Luca Padovani
+##
+## This program is free software; you can redistribute it and/or
+## modify it under the terms of the GNU General Public License
+## as published by the Free Software Foundation; either version 2
+## of the License, or (at your option) any later version.
+## 
+## This program is distributed in the hope that it will be useful,
+## but WITHOUT ANY WARRANTY; without even the implied warranty of
+## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+## GNU General Public License for more details.
+## 
+## You should have received a copy of the GNU General Public License
+## along with this program; if not, write to the Free Software
+## Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  
+## 02111-1307, USA.
+
+plugindir = @ABI_PLUGIN_DIR@
+
+INCLUDES = -I'$(top_srcdir)/tools/abimathview/itex2MML' $(AF_INCLUDES) $(ICONV_INCLUDES) $(WP_INCLUDES)  $(OTHER_INCLUDES) $(MATHVIEW_CFLAGS) $(TEXT_INCLUDES) 
+ 
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @MATHVIEW_LIBS@ @PLATFORM_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiMathView.la
+
+libAbiMathView_la_SOURCES = AbiMathView.cpp  \
+	gr_Abi_CharArea.cpp \
+	gr_Abi_ColorArea.cpp \
+	gr_Abi_DefaultShaper.cpp \
+	gr_Abi_StandardSymbolsShaper.cpp \
+	gr_Abi_ComputerModernShaper.cpp \
+	gr_Abi_InkArea.cpp \
+	gr_Abi_MathGraphicDevice.cpp \
+	gr_Abi_RenderingContext.cpp \
+	ie_imp_MathML.cpp 
+
+libAbiMathView_la_LIBADD = ../itex2MML/libitex2MML.la @ABI_LIBS@
+
+libAbiMathView_la_LDFLAGS = -no-undefined -module -avoid-version

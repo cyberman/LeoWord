@@ -1,0 +1,1 @@
+SUBDIRS = @abi_tests@ 
