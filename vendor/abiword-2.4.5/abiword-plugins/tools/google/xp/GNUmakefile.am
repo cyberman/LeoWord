@@ -1,0 +1,13 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @PLATFORM_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiGoogle.la
+
+libAbiGoogle_la_SOURCES = AbiGoogle.cpp
+
+libAbiGoogle_la_LIBADD = @ABI_LIBS@
+
+libAbiGoogle_la_LDFLAGS = -no-undefined -module -avoid-version

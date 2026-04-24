@@ -1,0 +1,31 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_XHTML_CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_XHTML_LDFLAGS@ @PLATFORM_LDFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiXHTML.la
+
+if ABI_XHTML_MHT
+MHTSOURCES = ie_imp_MHT.cpp ie_imp_MHT.h
+else
+MHTSOURCES = 
+endif
+
+if ABI_XHTML_TIDY
+TIDYSOURCES = tidyReader.cpp tidyReader.h tidyImporter.cpp tidyImporter.h
+else
+TIDYSOURCES = 
+endif
+
+if ABI_XHTML_XML2
+XML2SOURCES = ut_html.cpp ut_html.h ie_imp_HTML.cpp ie_imp_HTML.h
+else
+XML2SOURCES = 
+endif
+
+libAbiXHTML_la_SOURCES = register.cpp $(MHTSOURCES) $(TIDYSOURCES) $(XML2SOURCES)
+
+libAbiXHTML_la_LIBADD = @ABI_LIBS@
+
+libAbiXHTML_la_LDFLAGS = -no-undefined -module -avoid-version

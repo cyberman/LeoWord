@@ -1,0 +1,17 @@
+plugindir = @ABI_PLUGIN_DIR@
+
+gladedir=$(plugindir)/AbiWord/glade
+
+glade_DATA = ots.glade
+
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_OTS_CPPFLAGS@ @PLATFORM_CPPFLAGS@ -DOTS_GLADE_DIR='"$(gladedir)"'
+
+LDFLAGS = @LDFLAGS@ @ABI_OTS_LDFLAGS@ @PLATFORM_LDFLAGS@
+
+plugin_LTLIBRARIES = libAbiOTS.la
+
+libAbiOTS_la_SOURCES = AbiOts.cpp
+
+libAbiOTS_la_LIBADD = @ABI_LIBS@
+
+libAbiOTS_la_LDFLAGS = -no-undefined -module -avoid-version

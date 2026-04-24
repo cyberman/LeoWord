@@ -1,0 +1,6 @@
+GNUmakefile
+GNUmakefile.in
+.deps
+.libs
+*.lo
+*.la

@@ -1,0 +1,62 @@
+<Root>
+  
+<commands>
+        <cmd name="fileSave" _label="Save" 
+             _tip="Save the current file" 
+        	 pixtype="stock" pixname="Save"/>
+	<cmd name="fileSaveAs" _label="Save _As..." 
+	     pixtype="stock" pixname="Save As" />
+        <cmd name="printPreview" _label="Print Preview..."
+             _tip="Previews the current file to be printed"
+             pixtype="stock" pixname="Print" />
+        <cmd name="print" _label="_Print..."
+             _tip="Print the current file"
+        	 pixtype="stock" pixname="Print" />
+
+	<cmd name="undo"  _label="Undo" _tip="Un do the last change"/>
+	<cmd name="redo" _label="Redo" _tip="Redo the last undo command/>
+	<cmd name="copy" _label="Copy" _tip="Copy the current selection"/>
+        <cmd name="cut"  _label="Cut" _tip="Cut the current selection" />
+	<cmd name="paste" _label="Paste" _tip="Paste the last copied text"/>
+</commands>
+
+<menu>
+
+    <submenu name="File">
+            <placeholder name="File Items Placeholder">
+	             <menuitem name="SaveAs" verb=""/>
+
+<!-- FIXME: Enable this if printing operations has been
+            ported to Gnome2.
+	             <separator/>
+                     <menuitem name="PrintSetup" verb=""/>
+		     <menuitem name="PrintPreview" verb=""/>
+		     <menuitem name="Print" verb=""/>
+-->
+
+            </placeholder>
+    </submenu>
+
+    <submenu name="Edit" _label="_Edit">
+           <placeholder name="Edit Items Placeholder">
+                  <menuitem name="FlipHorizontal" verb=""/>
+                  <menuitem name="FlipVertical" verb=""/>
+	          <separator/>
+                  <menuitem name="Rotate90cw" verb=""/>
+                  <menuitem name="Rotate90ccw" verb=""/>
+	          <menuitem name="Rotate180" verb=""/>
+           </placeholder>
+    </submenu>
+  
+    <submenu name="View" _label="_View">
+
+            <placeholder name="View Items Placeholder">
+  	             <menuitem name="FullScreen" verb=""/>
+            </placeholder>
+
+ 	    <placeholder name="Zoom Items Placeholder" delimit="top"/>
+    </submenu>
+
+</menu>
+
+</Root>

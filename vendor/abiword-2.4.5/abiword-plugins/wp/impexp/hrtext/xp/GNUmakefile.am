@@ -1,0 +1,13 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @PLATFORM_LDFLAGS@
+
+plugindir = @ABI_PLUGIN_DIR@
+
+plugin_LTLIBRARIES = libAbiHRText.la
+
+libAbiHRText_la_SOURCES = ie_exp_HRText.cpp ie_exp_HRText.h
+
+libAbiHRText_la_LIBADD = @ABI_LIBS@
+
+libAbiHRText_la_LDFLAGS = -no-undefined -module -avoid-version

@@ -1,0 +1,35 @@
+CPPFLAGS = @ABI_CPPFLAGS@ @CPPFLAGS@ @ABI_OPENDOCUMENT_CPPFLAGS@ @PLATFORM_CPPFLAGS@
+
+LDFLAGS = @LDFLAGS@ @ABI_OPENDOCUMENT_LDFLAGS@ @PLATFORM_LDFLAGS@
+
+noinst_LTLIBRARIES = libAbiOpenDocument_exp.la
+
+libAbiOpenDocument_exp_la_SOURCES=	ie_exp_OpenDocument.cpp \
+	ie_exp_OpenDocument_Sniffer.cpp \
+	ODe_AbiDocListener.cpp \
+	ODe_AbiDocListenerImpl.cpp \
+	ODe_AutomaticStyles.cpp \
+	ODe_AuxiliaryData.cpp \
+	ODe_Common.cpp \
+	ODe_DocumentData.cpp \
+	ODe_FontFaceDecls.cpp \
+	ODe_Frame_Listener.cpp \
+	ODe_HeadingSearcher_Listener.cpp \
+	ODe_ListLevelStyle.cpp \
+	ODe_Main_Listener.cpp \
+	ODe_ManifestWriter.cpp \
+	ODe_MetaDataWriter.cpp \
+	ODe_Note_Listener.cpp \
+	ODe_PicturesWriter.cpp \
+	ODe_SettingsWriter.cpp \
+	ODe_Style_List.cpp \
+	ODe_Style_MasterPage.cpp \
+	ODe_Style_PageLayout.cpp \
+	ODe_Styles.cpp \
+	ODe_Style_Style.cpp \
+	ODe_Table_Listener.cpp \
+	ODe_Text_Listener.cpp
+
+libAbiOpenDocument_exp_la_LIBADD = @ABI_LIBS@
+
+libAbiOpenDocument_exp_la_LDFLAGS = -no-undefined -module -avoid-version
