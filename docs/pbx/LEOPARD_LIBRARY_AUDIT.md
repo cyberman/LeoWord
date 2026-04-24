@@ -120,3 +120,46 @@ Initial conclusion:
 - bzip2 should prefer the Leopard system library.
 - Bundling `libbz2` from Fink/MacPorts is not justified by default.
 - The old AbiWord build references `libbz2.1.dylib`; Leopard provides `libbz2.1.0.dylib` and `libbz2.dylib`, so the final build must verify linker and install-name behavior.
+
+## Leopard Native Replacement Check - Spellchecking, PNG, Localization
+
+Checked on the target iMac G5 / Mac OS X 10.5.8 PowerPC.
+
+### NSSpellChecker
+
+Confirmed:
+
+- `/System/Library/Frameworks/AppKit.framework/Headers/NSSpellChecker.h`
+- `@interface NSSpellChecker`
+- `checkSpellingOfString:startingAt:`
+- `checkSpellingOfString:startingAt:language:wrap:inSpellDocumentWithTag:wordCount:`
+
+Initial conclusion:
+
+- `enchant.framework` should be treated as a temporary restoration dependency.
+- Final LeoWord should prefer AppKit `NSSpellChecker` for native spellchecking if practical.
+
+### ImageIO / PNG
+
+Confirmed:
+
+- `ImageIO.framework` exists under `ApplicationServices.framework`
+- ImageIO links internally against `libPng.dylib`
+
+Initial conclusion:
+
+- `png.framework` should be treated as a temporary restoration dependency.
+- Final LeoWord should investigate replacing direct PNG handling with ImageIO/CoreGraphics where practical.
+
+### libintl / gettext
+
+Confirmed:
+
+- no `/usr/lib/libintl*` on the target system
+- `NSBundle.h` exists
+- `localizedStringForKey:value:table:` exists
+
+Initial conclusion:
+
+- `libintl` should not be introduced merely for UI localization.
+- Final LeoWord should prefer native `.lproj` and `NSBundle` localization.
