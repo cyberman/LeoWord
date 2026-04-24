@@ -1,0 +1,40 @@
+
+		815C7BB705D36FFD00599FB9 = {
+			buildPhases = (
+				815C7BB805D36FFD00599FB9,
+				815C7D7605D36FFD00599FB9,
+				815C7E4105D36FFD00599FB9,
+				815C7E4205D36FFD00599FB9,
+				815C7FEF05D36FFD00599FB9,
+				815C7FF905D36FFD00599FB9,
+				815C7FFB05D36FFD00599FB9,
+				81BC0E8605FE77A5004C2F8E,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "/System/Library/Frameworks $(BUILD_PRODUCT_DIR)";
+				GCC_PREPROCESSOR_DEFINITIONS = "ABIWORD_APP_NAME=\\\"AbiWord\\\" PACKAGE=\\\"AbiSuite-2.4\\\" VERSION=\\\"2.4.5\\\" ABISUITE_HOME=\\\"\\\" HAVE_ENCHANT=1 STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ ABI_BUILD_VERSION=\\\"2.4.5\\\" ABIWORD_APP_LIBDIR=\\\"AbiWord\\\" HAVE_EXT_HASH_MAP";
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(BUILD_PRODUCT_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-Wno-format-y2k";
+				PRODUCT_NAME = AbiWord;
+				SECTORDER_FLAGS = "";
+				UNSTRIPPED_PRODUCT = NO;
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = AbiWord;
+			productInstallPath = "$(HOME)/Applications";
+			productName = abipbx;
+			productReference = 815C800905D36FFD00599FB9;
+			productType = "com.apple.product-type.application";
+		};
+
