@@ -35,3 +35,17 @@ The usage appears isolated into:
 - `gmodule` belongs to plugin loading and should be deferred from V1.
 - `gobject` has only one visible Cocoa-path hit and should be investigated in `xap_CocoaDlg_History.mm`.
 - GLib may remain temporarily for restoration, but the direct Cocoa usage does not justify a permanent LeoWord V1 dependency.
+
+## History Dialog gobject Check
+
+The only direct Cocoa-path `g_object_unref(model)` hit is located in:
+
+- `abi/src/af/xap/cocoa/xap_CocoaDlg_History.mm`
+
+The call is inside a disabled `#if 0` block containing old GTK TreeView code.
+
+Conclusion:
+
+- This is dead GTK-era code.
+- It does not justify linking or bundling `libgobject` for LeoWord V1.
+- `libgobject` should be treated as non-core and removable unless another active reference is found.

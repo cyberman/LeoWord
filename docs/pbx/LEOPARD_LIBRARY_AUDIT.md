@@ -293,3 +293,13 @@ Initial conclusion:
 - `gmodule` is plugin-related and should be deferred from V1.
 - `gthread` should be removed or replaced if possible.
 - `gobject` needs one targeted check in `xap_CocoaDlg_History.mm`.
+
+## gobject Result
+
+The only observed direct Cocoa-path `g_object_unref(model)` occurrence is inside a disabled `#if 0` block in `xap_CocoaDlg_History.mm`.
+
+Initial conclusion:
+
+- `libgobject` is not required by active Cocoa V1 code.
+- It appears to be dead GTK-era residue in the Cocoa tree.
+- `libgobject` should be removed from the final V1 dependency set unless another active reference is found.
