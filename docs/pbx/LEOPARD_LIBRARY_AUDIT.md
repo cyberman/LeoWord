@@ -314,3 +314,16 @@ Initial conclusion:
 - `.doc` import is useful but not mandatory for LeoWord V1.
 - RTF should be prioritized before binary `.doc`.
 - If `.doc` import is deferred, LeoWord V1 must not advertise `.doc` as a fully supported editable document type.
+
+## wv / DOC Import Result
+
+`wv.framework` is primarily tied to classic Microsoft Word `.doc` import via `ie_imp_MsWord_97`.
+
+The old source also uses `wv.h` in RTF import/export for language/codepage helper functions.
+
+Initial conclusion:
+
+- DOC import should be deferred from LeoWord V1.
+- RTF remains V1-relevant.
+- The large `wv` parser stack should not be a final V1 dependency unless required.
+- If RTF only needs small LID/codepage helpers, those should be shimmed or extracted rather than keeping the whole Word parser.
