@@ -178,3 +178,21 @@ Initial conclusion:
 - `popt.framework` may remain during restoration.
 - It should not be part of the final dependency set if a small local compatibility shim is practical.
 - For a native Cocoa application, a full external command-line parsing framework is not justified by default.
+
+## popt Result
+
+`popt` is used in AbiWord 2.4.5 for cross-platform command-line argument handling.
+
+Observed files:
+
+- `ap_Args.h`
+- `ap_Args.cpp`
+- `ap_App.cpp`
+- `ap_CocoaApp.mm`
+
+Initial conclusion:
+
+- `popt.framework` may remain during restoration.
+- It is not justified as a final LeoWord runtime dependency.
+- A small local compatibility shim should be investigated.
+- Native Cocoa/Finder document opening should eventually supersede command-line file handling for normal GUI use.

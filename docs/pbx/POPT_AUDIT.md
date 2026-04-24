@@ -2,9 +2,9 @@
 
 ## Finding
 
-AbiWord 2.4.5 uses `popt` in its cross-platform application argument handling.
+AbiWord 2.4.5 uses `popt` for cross-platform command-line argument handling.
 
-Relevant files include:
+Relevant files:
 
 - `abi/src/wp/ap/xp/ap_Args.h`
 - `abi/src/wp/ap/xp/ap_Args.cpp`
@@ -15,10 +15,10 @@ The old Cocoa app target links and bundles `popt.framework`.
 
 ## Used API Surface
 
-The observed API surface appears to include:
+Observed API surface:
 
-- `struct poptOption`
 - `poptContext`
+- `struct poptOption`
 - `poptGetContext`
 - `poptGetNextOpt`
 - `poptGetArg`
@@ -27,32 +27,58 @@ The observed API surface appears to include:
 - `poptPrintHelp`
 - `poptFreeContext`
 
+## Cocoa Observation
+
+The Cocoa startup path contains this notable logic:
+
+`if (true) // really don't want to be opening files atm anyway`
+
+followed by `[NSApp run]`.
+
+This suggests that classic command-line file opening was already not central to the Cocoa port.
+
 ## LeoWord Interpretation
 
-`popt` is not a native Leopard facility and should not be preserved merely because AbiWord 2.4.5 used it.
+`popt` is not a native Leopard facility.
 
-However, it is wired into AbiWord's existing argument parsing path, so removing it immediately would be invasive.
+For a native Cocoa application, a full external command-line parsing framework is not justified by default.
 
 ## V1 Decision
 
-- Restoration phase: keep `popt.framework` temporarily.
-- Final LeoWord V1: replace with a small local compatibility layer if practical.
+- Restoration phase: `popt.framework` may remain temporarily.
+- LeoWord V1: replace with a small compatibility shim if practical.
+- Final goal: remove external `popt.framework`.
 
 ## Replacement Strategy
 
-Create a minimal LeoWord-local parser or compatibility shim that implements only the subset of `popt` used by AbiWord 2.4.5.
+A minimal LeoWord-local compatibility layer should implement only the subset of `popt` used by AbiWord 2.4.5.
 
-Possible implementation locations:
+Possible location:
 
 - `leoword/compat/popt/`
-- `tools/compat/popt/`
-- later: direct simplification of `ap_Args`
 
-The replacement should prefer:
+The implementation should use:
 
 - plain `argc` / `argv`
-- `NSProcessInfo` where useful
+- possibly `NSProcessInfo`
 - no external runtime dependency
+
+## V1-Relevant Arguments
+
+Likely V1-relevant:
+
+- `--version`
+- `--help`
+- positional filenames, if Finder/NSDocument integration does not cover them yet
+
+Likely deferrable:
+
+- conversion modes
+- PNG export mode
+- plugin execution mode
+- mail merge options
+- print-to-file CLI mode
+- debug-only options
 
 ## Rule
 
