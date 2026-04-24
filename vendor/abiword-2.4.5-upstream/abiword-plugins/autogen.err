@@ -1,3 +1,0 @@
-configure.ac: installing `./install-sh'
-configure.ac: installing `./missing'
-tools/abicommand/xp/GNUmakefile.am: installing `./depcomp'

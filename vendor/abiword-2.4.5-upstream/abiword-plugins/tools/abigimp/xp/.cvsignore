@@ -1,7 +1,0 @@
-GNUmakefile
-GNUmakefile.am
-GNUmakefile.in
-.deps
-.libs
-*.lo
-*.la
