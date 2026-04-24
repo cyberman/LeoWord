@@ -1,0 +1,49 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXDialog_Spell.cpp:489:	char * modtext = get_text_string(m_entryChange);
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXDialog_Spell.cpp:490:	UT_ASSERT(modtext);
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXDialog_Spell.cpp:492:	int index = PtListItemPos(m_clistSuggestions, modtext);
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixDialog_Spell.cpp:564:    const gchar * modtext = gtk_entry_get_text(GTK_ENTRY(m_eChange));
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixDialog_Spell.cpp:565:    UT_ASSERT(modtext);
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixDialog_Spell.cpp:576:			if (UT_XML_strnicmp (modtext, label, UT_XML_strlen (modtext)) == 0) {
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:527:	// the spec, but OpenOffice uses it, so use -1 instead (which
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1038:			case 77:    // Source Vlad Harchev from OpenOffice
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1053:			case 130:   // Source Vlad Harchev from OpenOffice
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:3460:	  OpenOffice/StarOffice 6 do this in a similar way. See OpenOffice bug 2244.
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:7885:  StarWriter/OpenOffice
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:364:	RTF_KW_dpcodtop,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:358:	{"dpcodtop", false, false, NO_CONTEXT, RTF_KW_dpcodtop }, 
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:162:				<string>sxw</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:173:			<string>OpenOffice.org Writer Document</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:184:				<string>odt</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:194:			<string>OpenDocument Text</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:162:				<string>sxw</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:173:			<string>OpenOffice.org Writer Document</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:184:				<string>odt</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:194:			<string>OpenDocument Text</string>
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:15:			path = OpenDocument;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:166:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:173:				PRODUCT_NAME = AbiOpenDocument;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:180:			name = AbiOpenDocument;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:181:			productName = AbiOpenDocument;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:189:			path = "AbiOpenDocument.so-abi";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3405:			path = "libgsf-1.1.dylib";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6830:			path = Cover.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6837:			path = idxexample.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6844:			path = LinuxCookbook.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6851:			path = ProgenySpecificFAW.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6858:			path = russian_help.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:6865:			path = TestShopov.sxw;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8506:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libwpd-0.8 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8658:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8767:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9786:			path = ie_impexp_OpenDocument.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9862:			path = ie_exp_OpenDocument.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9870:			path = ie_exp_OpenDocument.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9878:			path = ie_exp_OpenDocument_Sniffer.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9886:			path = ie_exp_OpenDocument_Sniffer.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:10341:			path = ie_imp_OpenDocument.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:10349:			path = ie_imp_OpenDocument.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:10357:			path = ie_imp_OpenDocument_Sniffer.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:10365:			path = ie_imp_OpenDocument_Sniffer.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:11786:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/preparelibs.sh:36:#  -gsf
+vendor/abiword-2.4.5/abipbx/preparelibs.sh:45:DYLIBS="libgsf-1.1.dylib libgthread-2.0.dylib libgobject-2.0.dylib libglib-2.0.dylib libxml2.2.dylib libintl.1.dylib libiconv.2.dylib libbz2.1.dylib"
