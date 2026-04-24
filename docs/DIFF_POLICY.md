@@ -2,11 +2,24 @@
 
 Later AbiWord changes may be imported only if they are useful for the Leopard/PPC target.
 
-Diff classes:
+## Diff Classes
 
-- SAFE: isolated bugfix, no new dependency
-- CANDIDATE: useful feature or file format improvement
-- SUSPICIOUS: architectural change requiring review
-- REJECT: GTK3, GNOME integration, modern C++ assumptions, dependency expansion
+### SAFE
+
+Isolated bugfix, no new dependency.
+
+### CANDIDATE
+
+Useful feature or file format improvement.
+
+### SUSPICIOUS
+
+Architectural change requiring review.
+
+### REJECT
+
+GTK3, GNOME integration, modern C++ assumptions, dependency expansion.
+
+## Baseline Rule
 
 AbiWord 2.4.5 is the source of truth.

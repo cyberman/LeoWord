@@ -1,41 +1,31 @@
-# Prerequisites
-*.d
+# macOS Finder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Compiled Object files
-*.slo
-*.lo
+# Xcode build products
+build/
+DerivedData/
+*.app
+*.dSYM
+
+# Xcode 3 user/session files
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserdata
+
+# Compiler output
 *.o
-*.obj
-
-# Precompiled Headers
+*.lo
+*.la
+*.a
+*.dylib
+*.so
+*.d
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Temporary import/download area
+_incoming/

@@ -2,7 +2,7 @@
 
 LeoWord is based on AbiWord 2.4.5 Mac/PPC.
 
-Principles:
+## Principles
 
 1. Mac OS X 10.5.8 PowerPC has absolute primacy.
 2. Native Cocoa/AppKit behavior wins over portability layers.
