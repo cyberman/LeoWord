@@ -257,3 +257,18 @@ Initial conclusion:
 - GLib may remain during restoration.
 - `gmodule` should be removed or replaced if plugin loading is deferred.
 - `gobject`, `gthread`, and `libgsf` remain non-core unless proven otherwise.
+
+## GLib Replacement Plan
+
+The relevant Cocoa-path GLib usage is localized:
+
+- `xap_CocoaApp.mm`: thread initialization
+- `xap_CocoaModule.mm`: plugin/module loading
+- `xap_CocoaEncodingManager.mm`: locale and encoding helper logic
+
+Initial conclusion:
+
+- GLib is not deeply embedded in the editor core.
+- GLib may remain during restoration.
+- Final LeoWord V1 should replace these localized usage points with Leopard-native facilities where practical.
+- Plugin loading should be deferred from V1, allowing `gmodule` to be removed.
