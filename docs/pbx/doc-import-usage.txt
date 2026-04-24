@@ -1,0 +1,44 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:2303:	  ext = ".doc" ; 
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:82:		The Unix one looks just like Microsoft Word 97's Paragraph
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatFootnotes.cpp:202:								  "document-endnote-place-enddoc",NULL,
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_String_Id.h:343:   similar amount of text in the translation.  Microsoft Word uses
+vendor/abiword-2.4.5/abi/src/wp/impexp/Makefile:54:        $(OBJDIR)/ie_imp_MsWord_97.$(OBJ_SUFFIX)                    \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.am:46:	ie_imp_MsWord_97.cpp		\
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:93:	ie_imp_GZipAbiWord.$(OBJEXT) ie_imp_MsWord_97.$(OBJEXT) \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:503:	ie_imp_MsWord_97.cpp		\
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:583:@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ie_imp_MsWord_97.Po@am__quote@
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_MsWord_97.cpp:377:	return (!UT_stricmp(szSuffix,".doc") || !UT_stricmp(szSuffix, ".dot"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_MsWord_97.cpp:393:	*pszSuffixList = "*.dot; *.doc";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:167:	return (!UT_stricmp(szSuffix,".doc"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:182:	*pszDesc = "Microsoft Word (.doc)";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:183:	*pszSuffixList = "*.doc";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:963:	pDocAP->getProperty("document-endnote-place-enddoc", (const XML_Char *&)pszTmp);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:968:			_rtf_keyword("aenddoc"); // endnotes at end of document
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_FileInfo.cpp:71:	{ "text/doc",								IE_MIME_MSWord	}, // or is it? [TODO: check!]
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:52:#include "ie_imp_MsWord_97.h"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:667:	magic = "Microsoft Word 6.0 Document";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:677:	magic = "Documento Microsoft Word 6";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:750:	if (!UT_stricmp(szSuffix,".doc") ||
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:768:	*pszDesc = "Microsoft Word (.doc, .dot)";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5505:									"document-endnote-place-enddoc",    NULL,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:25:// The importer/reader for Microsoft Word Documents
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:137:	if (!UT_stricmp(szSuffix, ".doc"))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:3979:			const XML_Char * props[] = {"document-endnote-place-enddoc", "1",
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4279:		const XML_Char * props[] = {"document-endnote-place-enddoc", "1",
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:37:	{"aenddoc", false, false, NO_CONTEXT, RTF_KW_aenddoc }, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:429:	{"enddoc", false, false, NO_CONTEXT, RTF_KW_enddoc }, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:577:	{"horzdoc", false, false, NO_CONTEXT, RTF_KW_horzdoc }, /* 7.0 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:677:	{"ltrdoc", false, false, NO_CONTEXT, RTF_KW_ltrdoc }, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:1019:	{"rtldoc", false, false, NO_CONTEXT, RTF_KW_rtldoc }, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:1379:	{"vertdoc", false, false, NO_CONTEXT, RTF_KW_vertdoc }, /* 7.0 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:537:  if (!UT_stricmp (szSuffix, ".doc"))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impexp_Register.cpp:33:#include "ie_imp_MsWord_97.h"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:43:		ie_imp_MsWord_97.cpp			\
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:81:			<string>DOCDocument.icns</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist:87:			<string>Microsoft Word Document</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:81:			<string>DOCDocument.icns</string>
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/Info.plist.in:87:			<string>Microsoft Word Document</string>
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:19868:			name = DOCDocument.icns;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:19869:			path = ../abi/src/wp/main/cocoa/bundle/DOCDocument.icns;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:24948:			path = ie_imp_MsWord_97.cpp;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:24956:			path = ie_imp_MsWord_97.h;

@@ -303,3 +303,14 @@ Initial conclusion:
 - `libgobject` is not required by active Cocoa V1 code.
 - It appears to be dead GTK-era residue in the Cocoa tree.
 - `libgobject` should be removed from the final V1 dependency set unless another active reference is found.
+
+## wv / DOC Import Check
+
+`wv.framework` is linked and bundled by the old AbiWord 2.4.5 app target.
+
+Initial conclusion:
+
+- `wv.framework` appears tied to classic Microsoft Word `.doc` import.
+- `.doc` import is useful but not mandatory for LeoWord V1.
+- RTF should be prioritized before binary `.doc`.
+- If `.doc` import is deferred, LeoWord V1 must not advertise `.doc` as a fully supported editable document type.

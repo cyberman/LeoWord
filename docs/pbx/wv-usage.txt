@@ -1,0 +1,647 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:421:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:422:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:423:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:401:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:402:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:403:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:434:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:435:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:436:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/Makefile:80:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:412:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:413:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:414:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:450:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:451:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:452:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:399:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:400:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:401:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/Makefile:85:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv -DABIWORD_PLUGINDIR="\"$(prefix)/lib/AbiWord-2.4/plugins/\""
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:432:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:433:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:434:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/ap/win/Makefile:82:INCLUDES+= -I$(ABI_XX_ROOT)/../wv -I$(ABI_XX_ROOT)/../wv/exporter -I$(ABI_ZLIB_INC) -I$(ABI_XX_ROOT)/../wv/libole2 -I$(ABI_XX_ROOT)/../libpng -I$(ABI_XX_ROOT)/../libiconv/include
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:431:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:432:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:433:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:394:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:395:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:396:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:388:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:389:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/Makefile:31:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/impexp/README.TXT:30:<li>IE_Imp_MsWord_97 -- Imports MS Word 97 documents using libwv.
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:393:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:394:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:395:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/Makefile:37:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:388:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:389:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:404:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:405:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:406:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:42:#include "wv.h" //for wvLIDToCodePageConverter
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:29:#include "wv.h"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:81:static int charProc (wvParseStruct *ps, U16 eachchar, U8 chartype, U16 lid);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:82:static int specCharProc (wvParseStruct *ps, U16 eachchar, CHP* achp);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:83:static int eleProc (wvParseStruct *ps, wvTag tag, void *props, int dirty);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:84:static int docProc (wvParseStruct *ps, wvTag tag);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:940:  wvParseStruct ps;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:942:  int ret = wvInitParser (&ps, const_cast<char *>(szFilename));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1006:  wvText(&ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1293:XML_Char * IE_Imp_MsWord_97::_getBookmarkName(const wvParseStruct * ps, UT_uint32 pos)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1333:int IE_Imp_MsWord_97::_docProc (wvParseStruct * ps, UT_uint32 tag)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1545:int IE_Imp_MsWord_97::_charProc (wvParseStruct *ps, U16 eachchar, U8 chartype, U16 lid)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1679:int IE_Imp_MsWord_97::_specCharProc (wvParseStruct *ps, U16 eachchar, CHP *achp)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1694:	wvStream *fil;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1775:		pos = wvStream_tell(ps->data);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1779:		wvStream_goto(ps->data, achp->fcPic_fcObj_lTagObj);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1781:		if (1 == wvGetPICF(wvQuerySupported(&ps->fib, NULL), &picf,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1798:			wvStream_goto(ps->data, pos);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1813:				fspa = wvGetFSPAFromCP(ps->currentcp, ps->fspa,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1848:				wvGetEscher (&item, ps->fib.fcDggInfo, ps->fib.lcbDggInfo, ps->tablefd,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2004:			fdoa = wvGetFDOAFromCP(ps->currentcp, NULL, ps->fdoapos,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2016:int IE_Imp_MsWord_97::_beginComment(wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2023:int IE_Imp_MsWord_97::_endComment(wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2031:int IE_Imp_MsWord_97::_eleProc(wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2084:int IE_Imp_MsWord_97::_beginSect (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2486:int IE_Imp_MsWord_97::_endSect (wvParseStruct * /* ps */ , UT_uint32  /* tag */ ,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2517:int IE_Imp_MsWord_97::_beginPara (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3033:int IE_Imp_MsWord_97::_endPara (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3047:int IE_Imp_MsWord_97::_beginChar (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3243:int IE_Imp_MsWord_97::_endChar (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3253:int IE_Imp_MsWord_97::_fieldProc (wvParseStruct *ps, U16 eachchar,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3260:	// The majority of this code has just been ripped out of wv/field.c
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4007:  wvStream *pwv;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4026:  size_t size = wvStream_size (pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4028:  wvStream_rewind(pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4029:  wvStream_read(data,size,sizeof(char),pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4165:  wvStream *pwv;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4184:  size_t size = wvStream_size (pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4186:  wvStream_rewind(pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4187:  wvStream_read(data,size,sizeof(char),pwv);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4274:static int charProc (wvParseStruct *ps, U16 eachchar, U8 chartype, U16 lid)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4280:static int specCharProc (wvParseStruct *ps, U16 eachchar, CHP* achp)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4286:static int eleProc (wvParseStruct *ps, wvTag tag, void *props, int dirty)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4292:static int docProc (wvParseStruct *ps, wvTag tag)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4519:void IE_Imp_MsWord_97::_table_close (const wvParseStruct *ps, const PAP *apap)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4584:void IE_Imp_MsWord_97::_row_open (const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4648:void IE_Imp_MsWord_97::_cell_open (const wvParseStruct *ps, const PAP *apap)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4794:void IE_Imp_MsWord_97::_generateCharProps(UT_String &s, const CHP * achp, wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4927:		fname = wvGetFontnameFromCode(&ps->fonts, achp->ftcSym);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4931:		fname = wvGetFontnameFromCode(&ps->fonts, achp->ftcBidi);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4935:		fname = wvGetFontnameFromCode(&ps->fonts, achp->ftcAscii);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4939:		fname = wvGetFontnameFromCode(&ps->fonts, achp->ftcFE);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4958:void IE_Imp_MsWord_97::_generateParaProps(UT_String &s, const PAP * apap, wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5122:void IE_Imp_MsWord_97::_handleStyleSheet(const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5204:		wvParseStruct * PS = const_cast<wvParseStruct *>(ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5207:		wvInitCHPFromIstd(&achp, (U16)i, &(PS->stsh));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5216:		wvInitPAPFromIstd (&apap, (U16)i, &(PS->stsh));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5254:int IE_Imp_MsWord_97::_handleBookmarks(const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5274:	if(!wvGetBKF_PLCF (&bkf, &posf, &nobkf, ps->fib.fcPlcfbkf, ps->fib.lcbPlcfbkf, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5281:	if(!wvGetBKL_PLCF (&bkl, &posl, &nobkl, ps->fib.fcPlcfbkl, ps->fib.lcbPlcfbkl, ps->fib.fcPlcfbkf, ps->fib.lcbPlcfbkf, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5339:void IE_Imp_MsWord_97::_handleNotes(const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5376:		if(wvGetPLCF((void **) &pPLCF_ref, ps->fib.fcPlcffndRef, ps->fib.lcbPlcffndRef, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5382:		   wvGetPLCF((void **) &pPLCF_txt, ps->fib.fcPlcffndTxt, ps->fib.lcbPlcffndTxt, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5469:		if(wvGetPLCF((void **) &pPLCF_ref, ps->fib.fcPlcfendRef, ps->fib.lcbPlcfendRef, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5475:		   wvGetPLCF((void **) &pPLCF_txt, ps->fib.fcPlcfendTxt, ps->fib.lcbPlcfendTxt, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5573:void IE_Imp_MsWord_97::_handleTextBoxes(const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5604:		if(wvGetPLCF((void **) &pPLCF_dgg, ps->fib.fcDggInfo, ps->fib.lcbDggInfo, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:5615:		   wvGetPLCF((void **) &pPLCF_txt, ps->fib.fcPlcftxbxTxt, ps->fib.lcbPlcftxbxTxt, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:6400:void IE_Imp_MsWord_97::_handleHeaders(const wvParseStruct *ps)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:6460:		if(wvGetPLCF((void **) &pPLCF_txt, ps->fib.fcPlcfhdd, ps->fib.lcbPlcfhdd, ps->tablefd))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:33:// forward decls so that we don't have to #include "wv.h" here
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:35:typedef struct _wvParseStruct wvParseStruct;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:165:	int 			_specCharProc (wvParseStruct *ps, UT_uint16 eachchar,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:167:	int 			_charProc (wvParseStruct *ps, UT_uint16 eachchar,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:169:	int 			_docProc  (wvParseStruct *ps, UT_uint32 tag);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:170:	int 			_eleProc  (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:175:	int 	   _beginSect (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:177:	int 	   _endSect (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:180:	int 	   _beginPara (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:182:	int 	   _endPara (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:185:	int 	   _beginChar (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:187:	int 	   _endChar (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:189:	int 	   _beginComment (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:191:	int 	   _endComment (wvParseStruct *ps, UT_uint32 tag,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:193:	XML_Char * _getBookmarkName(const wvParseStruct * ps, UT_uint32 pos);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:200:	int 	   _fieldProc (wvParseStruct *ps, UT_uint16 eachchar,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:206:	void		_table_close(const wvParseStruct *ps, const PAP *apap);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:207:	void		_row_open(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:209:	void		_cell_open(const wvParseStruct *ps, const PAP *apap);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:211:	void        _handleStyleSheet(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:212:	void        _generateCharProps(UT_String &s, const CHP * achp, wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:213:	void        _generateParaProps(UT_String &s, const PAP * apap, wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:214:	int         _handleBookmarks(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:215:	void        _handleNotes(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:216:	void        _handleTextBoxes(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:234:	void        _handleHeaders(const wvParseStruct *ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:62:#include "wv.h" // for wvLIDToLangConverter
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:59:INCLUDES= -I$(ABI_XX_ROOT)/../wv -I$(ABI_XX_ROOT)/../wv/exporter -I$(ABI_ZLIB_INC) -I$(ABI_XX_ROOT)/../wv/libole2 -I$(ABI_XX_ROOT)/../libpng -I$(ABI_XX_ROOT)/../libiconv/include
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:64:INCLUDES= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:70:  INCLUDES+= -I$(ABI_XX_ROOT)/../wv/glib-wv 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:72:  INCLUDES+= -I$(ABI_ROOT)/../wv/glib-wv 
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.am:21:CLEANFILES = libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.am:23:frameworks_SCRIPTS = libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.am:25:libwv.dylib:	$(top_builddir)/../wv/libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.am:26:		cp -f $(top_builddir)/../wv/libwv.dylib libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:317:CLEANFILES = libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:318:frameworks_SCRIPTS = libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:495:libwv.dylib:	$(top_builddir)/../wv/libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:496:		cp -f $(top_builddir)/../wv/libwv.dylib libwv.dylib
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:420:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:421:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:422:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/Makefile:44:			AbiEv AbiUtil AbiWordVer AbiSpell Abi_libpng Abi_libwv Abi_libiconv
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:377:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:378:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:379:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:417:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:418:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:419:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/Makefile:33:			AbiEv AbiUtil AbiWordVer AbiSpell Abi_libwv \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/gnome/Makefile:37:			AbiEv AbiUtil AbiWordVer AbiSpell Abi_libwv \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:415:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:416:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:417:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/main/unix/Makefile:40:			AbiEv AbiUtil AbiImpExp AbiWordVer AbiSpell Abi_libwv \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:415:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:416:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:417:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:49:#			AbiEv AbiUtil AbiImpExp AbiWordVer AbiSpell Abi_libwv fribidi \
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:53:ABI_PERIPHLIBS=		Abi_libwv fribidi Abi_libexpat \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:377:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:378:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:379:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:417:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:418:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:419:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:417:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:418:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:419:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:368:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:369:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:370:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:382:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:383:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:384:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:398:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:399:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:400:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:390:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:397:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:398:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:399:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:391:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:393:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:395:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:396:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:397:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:380:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:381:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:382:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:393:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:394:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:395:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:390:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:393:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:394:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:395:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:391:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:393:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:386:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:387:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:388:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:400:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:401:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:402:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:391:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:393:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:391:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:392:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:393:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:392:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:393:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:394:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:429:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:430:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:431:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:411:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:412:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:413:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:408:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:409:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:410:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:404:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:405:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:406:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:396:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:397:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:398:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:434:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:435:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:436:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:389:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:390:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:391:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:386:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:387:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:388:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:414:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:415:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:416:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:55:// do not want to include wv.h here, since it defines some types that
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:433:WV_INCLUDES = -I'$(top_srcdir)/../wv/' -I'$(top_srcdir)/../wv/libole2' \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:434:	-I'$(top_srcdir)/../wv/exporter' \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:435:	-I'$(top_srcdir)/../wv/glib-wv'
+vendor/abiword-2.4.5/pbx/build_devel.sh:106:if [ ! -f wv/bmptopng.c ]; then
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:153:_wvGetANLD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:154:_wvGetANLD_FromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:155:_wvGetANLV
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:156:_wvGetANLVFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:157:_wvGetANLV_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:158:_wvGetASUMY
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:159:_wvGetASUMYI
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:160:_wvGetATRD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:161:_wvGetATRD_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:162:_wvGetBITMAP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:163:_wvGetBKD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:164:_wvGetBKD_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:165:_wvGetBKF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:166:_wvGetBKF_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:167:_wvGetBKL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:168:_wvGetBKL_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:169:_wvGetBRC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:170:_wvGetBRC10FromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:171:_wvGetBRC10_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:172:_wvGetBRCFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:173:_wvGetBRC_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:174:_wvGetBRC_internal6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:175:_wvGetBTE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:176:_wvGetBTE_FromFC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:177:_wvGetBTE_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:178:_wvGetBTE_PLCF6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:179:_wvGetBX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:180:_wvGetBX6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:181:_wvGetBeginFC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:182:_wvGetBitmap
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:183:_wvGetBlip
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:184:_wvGetBstoreContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:185:_wvGetCHPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:186:_wvGetCHPX_FKP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:187:_wvGetCLX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:188:_wvGetCOPTS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:189:_wvGetChar
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:190:_wvGetClientData
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:191:_wvGetClientTextbox
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:192:_wvGetCommentBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:193:_wvGetComplexCharBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:194:_wvGetComplexCharfcFirst
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:195:_wvGetComplexCharfcLim
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:196:_wvGetComplexFullTableInit
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:197:_wvGetComplexParaBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:198:_wvGetComplexParafcFirst
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:199:_wvGetComplexParafcLim
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:200:_wvGetComplexRowTap
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:201:_wvGetComplexSEP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:202:_wvGetDCS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:203:_wvGetDCSFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:204:_wvGetDCS_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:205:_wvGetDOGRID
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:206:_wvGetDOP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:207:_wvGetDOPTYPOGRAPHY
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:208:_wvGetDTTM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:209:_wvGetDTTMFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:210:_wvGetDgContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:211:_wvGetDgg
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:212:_wvGetDggContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:213:_wvGetEmpty_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:214:_wvGetEndFCPiece
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:215:_wvGetEscher
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:216:_wvGetFAnchor
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:217:_wvGetFBSE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:218:_wvGetFDG
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:219:_wvGetFDGG
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:220:_wvGetFDOA
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:221:_wvGetFDOAFromCP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:222:_wvGetFDOA_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:223:_wvGetFFN
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:224:_wvGetFFN6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:225:_wvGetFFN_STTBF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:226:_wvGetFFN_STTBF6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:227:_wvGetFIB
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:228:_wvGetFIB2
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:229:_wvGetFIB6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:230:_wvGetFIDCL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:231:_wvGetFILETIME
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:232:_wvGetFLD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:233:_wvGetFLD_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:234:_wvGetFONTSIGNATURE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:235:_wvGetFOPTE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:236:_wvGetFOPTEArray
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:237:_wvGetFRD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:238:_wvGetFRD_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:239:_wvGetFSP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:240:_wvGetFSPA
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:241:_wvGetFSPAFromCP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:242:_wvGetFSPA_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:243:_wvGetFSPContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:244:_wvGetFSPGR
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:245:_wvGetFTXBXS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:246:_wvGetFTXBXS_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:247:_wvGetFontnameFromCode
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:248:_wvGetFullTableInit
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:249:_wvGetGrpXst
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:250:_wvGetIndexFCInFKP_PAPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:251:_wvGetIntervalBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:252:_wvGetLFO
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:253:_wvGetLFOLVL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:254:_wvGetLFO_PLF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:255:_wvGetLFO_records
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:256:_wvGetLSPDFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:257:_wvGetLST
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:258:_wvGetLSTF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:259:_wvGetLSTF_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:260:_wvGetLVL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:261:_wvGetLVLF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:262:_wvGetListEntryInfo
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:263:_wvGetMSOFBH
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:264:_wvGetMetafile
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:265:_wvGetNUMRM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:266:_wvGetNUMRMFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:267:_wvGetNUMRM_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:268:_wvGetOLST
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:269:_wvGetOLSTFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:270:_wvGetOLST_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:271:_wvGetPANOSE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:272:_wvGetPAPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:273:_wvGetPAPX_FKP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:274:_wvGetPCD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:275:_wvGetPCD_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:276:_wvGetPGD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:277:_wvGetPHE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:278:_wvGetPHE6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:279:_wvGetPICF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:280:_wvGetPLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:281:_wvGetPRM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:282:_wvGetPieceBoundsCP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:283:_wvGetPieceBoundsFC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:284:_wvGetPieceFromCP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:285:_wvGetRR
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:286:_wvGetRS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:287:_wvGetRowTap
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:288:_wvGetSED
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:289:_wvGetSED_PLCF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:290:_wvGetSEPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:291:_wvGetSHD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:292:_wvGetSHDFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:293:_wvGetSHD_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:294:_wvGetSPID
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:295:_wvGetSPIDfromCP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:296:_wvGetSTD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:297:_wvGetSTSH
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:298:_wvGetSTSHI
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:299:_wvGetSTTBF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:300:_wvGetSTTBF6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:301:_wvGetSimpleCharBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:302:_wvGetSimpleParaBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:303:_wvGetSimpleSectionBounds
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:304:_wvGetSpgrContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:305:_wvGetSplitMenuColors
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:306:_wvGetSprmFromU16
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:307:_wvGetTBD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:308:_wvGetTBDFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:309:_wvGetTBD_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:310:_wvGetTCFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:311:_wvGetTC_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:312:_wvGetTLP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:313:_wvGetTLPFromBucket
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:314:_wvGetTLP_internal
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:315:_wvGetWKB
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:316:_wvGetXst
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:317:_wvGetrc
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:318:_wvGetrgsprmPrm
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:319:_wvGetrgsprmWord6
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:328:_wvInit
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:329:_wvInitANLD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:330:_wvInitANLV
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:331:_wvInitASUMYI
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:332:_wvInitBKF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:333:_wvInitBRC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:334:_wvInitBRC10
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:335:_wvInitBTE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:336:_wvInitBstoreContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:337:_wvInitCHP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:338:_wvInitCHPFromIstd
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:339:_wvInitCHPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:340:_wvInitCHPXFromIstd
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:341:_wvInitCHPX_FKP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:342:_wvInitCLX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:343:_wvInitCOPTS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:344:_wvInitClientData
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:345:_wvInitClientTextbox
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:346:_wvInitDCS
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:347:_wvInitDOGRID
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:348:_wvInitDOP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:349:_wvInitDOPTYPOGRAPHY
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:350:_wvInitDTTM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:351:_wvInitDgContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:352:_wvInitDgg
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:353:_wvInitDggContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:354:_wvInitError
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:355:_wvInitEscher
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:356:_wvInitFFN
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:357:_wvInitFIB
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:358:_wvInitFILETIME
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:359:_wvInitFONTSIGNATURE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:360:_wvInitFOPTEArray
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:361:_wvInitFSPA
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:362:_wvInitFSPContainer
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:363:_wvInitLFO
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:364:_wvInitLFOLVL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:365:_wvInitLSPD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:366:_wvInitLST
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:367:_wvInitLSTF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:368:_wvInitLVL
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:369:_wvInitLVLF
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:370:_wvInitNUMRM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:371:_wvInitOLST
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:372:_wvInitPANOSE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:373:_wvInitPAP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:374:_wvInitPAPFromIstd
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:375:_wvInitPAPX
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:376:_wvInitPAPX_FKP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:377:_wvInitPCD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:378:_wvInitPHE
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:379:_wvInitPRM
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:380:_wvInitParser
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:381:_wvInitSEP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:382:_wvInitSHD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:383:_wvInitSTD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:384:_wvInitSTSHI
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:385:_wvInitSplitMenuColors
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:386:_wvInitSprm
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:387:_wvInitTAP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:388:_wvInitTBD
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:389:_wvInitTC
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:390:_wvInitTLP
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:465:_wvStream_FILE_create
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:466:_wvStream_close
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:467:_wvStream_create
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:468:_wvStream_goto
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:469:_wvStream_libole2_create
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:470:_wvStream_memory_create
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:471:_wvStream_offset
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:472:_wvStream_offset_from_end
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:473:_wvStream_read
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:474:_wvStream_rewind
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:475:_wvStream_size
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:476:_wvStream_tell
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:477:_wvStream_write
+vendor/abiword-2.4.5/pbx/wvpbx/wv.exports:479:_wvText
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:204:			path = ../wv/plcf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:244:				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H VERSION=1.0.0 XMLCONFIG=$(datadir)/wv/wvConfig.xml HTMLCONFIG=$(datadir)/wv/wvHtml.xml WVDATADIR=$(datadir)/wv";
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1272:			path = ../wv/isbidi.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1431:			path = ../wv/anld.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1440:			path = ../wv/anlv.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1449:			path = ../wv/asumy.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1458:			path = ../wv/asumyi.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1467:			path = ../wv/atrd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1476:			path = ../wv/basename.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1485:			path = ../wv/bintree.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1494:			path = ../wv/bintree.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1503:			path = ../wv/bkd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1512:			path = ../wv/bkf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1521:			path = ../wv/bkl.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1530:			path = ../wv/blip.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1539:			path = ../wv/bmptopng.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1548:			path = ../wv/brc.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1557:			path = ../wv/bte.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1566:			path = ../wv/bx.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1575:			path = ../wv/chp.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1584:			path = ../wv/clx.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1593:			path = ../wv/crc32.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1602:			path = ../wv/crc32.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1611:			path = ../wv/dcs.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1620:			path = ../wv/decode_complex.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1629:			path = ../wv/decode_simple.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1638:			path = ../wv/decompresswmf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1647:			path = ../wv/decrypt95.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1656:			path = ../wv/decrypt97.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1665:			path = ../wv/dogrid.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1674:			path = ../wv/dop.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1683:			path = ../wv/doptypography.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1692:			path = ../wv/dttm.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1701:			path = ../wv/error.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1710:			path = ../wv/escher.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1719:			path = ../wv/fbse.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1728:			path = ../wv/fdoa.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1737:			path = ../wv/ffn.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1746:			path = ../wv/fib.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1755:			path = ../wv/field.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1764:			path = ../wv/filetime.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1773:			path = ../wv/fkp.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1782:			path = ../wv/fld.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1791:			path = ../wv/font.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1800:			path = ../wv/fopt.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1809:			path = ../wv/frd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1818:			path = ../wv/fspa.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1827:			path = ../wv/ftxbxs.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1836:			path = ../wv/generic.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1845:			path = ../wv/getopt.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1854:			path = ../wv/getopt.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1863:			path = ../wv/getopt1.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1872:			path = ../wv/hdr.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1881:			path = ../wv/laolareplace.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1890:			path = ../wv/lfo.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1899:			path = ../wv/list.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1908:			path = ../wv/lspd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1917:			path = ../wv/lst.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1926:			path = ../wv/lvl.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1935:			path = ../wv/md5.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1944:			path = ../wv/md5.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1953:			path = ../wv/mtextra.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1962:			path = ../wv/numrm.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1971:			path = ../wv/olst.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1980:			path = ../wv/pap.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1989:			path = ../wv/pcd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:1998:			path = ../wv/pgd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2007:			path = ../wv/phe.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2016:			path = ../wv/picf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2025:			path = ../wv/plan9.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2034:			path = ../wv/prm.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2043:			path = ../wv/rc4.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2052:			path = ../wv/rc4.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2061:			path = ../wv/reasons.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2070:			path = ../wv/roman.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2079:			path = ../wv/roman.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2088:			path = ../wv/rr.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2097:			path = ../wv/rs.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2106:			path = ../wv/sed.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2115:			path = ../wv/sep.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2124:			path = ../wv/shd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2133:			path = ../wv/sprm.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2142:			path = ../wv/strcasecmp.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2151:			path = ../wv/strerror.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2160:			path = ../wv/sttbf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2169:			path = ../wv/stylesheet.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2178:			path = ../wv/support.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2187:			path = ../wv/symbol.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2196:			path = ../wv/table.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2205:			path = ../wv/tap.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2214:			path = ../wv/tbd.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2223:			path = ../wv/tc.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2232:			path = ../wv/text.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2241:			path = ../wv/tlp.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2250:			path = ../wv/twips.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2259:			path = ../wv/unicode.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2268:			path = ../wv/utf.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2277:			path = ../wv/utf.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2286:			path = ../wv/winmmap.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2295:			path = ../wv/winmmap.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2304:			path = ../wv/wkb.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2312:			name = wv.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2313:			path = ../wv/wv.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2322:			path = ../wv/wvConfig.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2331:			path = ../wv/wvConvert.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2340:			path = ../wv/wvHtmlEngine.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2349:			path = ../wv/wvinternal.h;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2358:			path = ../wv/wvparse.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2367:			path = ../wv/wvRTF.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2376:			path = ../wv/wvSummary.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2384:			name = wvTextEngine.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2385:			path = ../wv/wvTextEngine.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2393:			name = wvVersion.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2394:			path = ../wv/wvVersion.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2402:			name = wvWare.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2403:			path = ../wv/wvWare.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2412:			path = ../wv/xst.c;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2447:			path = ../wv/libole2;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2522:			path = ../wv/expat;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2724:			path = ../wv/magick;
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2928:			path = ../wv/oledecod;
