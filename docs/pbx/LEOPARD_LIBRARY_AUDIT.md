@@ -209,3 +209,21 @@ Initial conclusion:
 - `popt` is not central to normal Cocoa GUI operation.
 - For LeoWord V1, CLI conversion/plugin modes may be deferred.
 - `popt.framework` should remain temporary and should be removed or replaced by a small compatibility shim before final V1 if practical.
+
+## GLib / libgsf Result
+
+The initial source and project scan indicates that `libgsf` is primarily tied to OpenDocument / structured document support and old plugin/import-export infrastructure.
+
+Observed OpenDocument-related items include:
+
+- `AbiOpenDocument`
+- `AbiOpenDocument.so-abi`
+- OpenDocument importer/exporter sources
+- `.odt` / `.sxw` document type declarations in the old Info.plist
+
+Initial conclusion:
+
+- `libgsf` is not V1-core.
+- OpenDocument / StarWriter support should be deferred from LeoWord V1.
+- `glib`, `gobject`, `gmodule`, and `gthread` should be treated as restoration-only unless proven necessary.
+- V1 Info.plist should not advertise `.odt` / `.sxw` support unless that stack is retained and tested.
