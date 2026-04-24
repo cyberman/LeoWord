@@ -1,0 +1,8 @@
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:119:	if (!g_thread_supported ()) {
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:120:		g_thread_init(NULL);
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaDlg_History.mm:150:	g_object_unref (model);	
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaModule.mm:88:			if (m_module = g_module_open(name, G_MODULE_BIND_LAZY))
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaModule.mm:113:				fprintf(stderr, "module failed to load: error=\"%s\"\n", g_module_error());
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaModule.mm:127:	if (g_module_close((GModule *) m_module))
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaModule.mm:146:	return (g_module_symbol((GModule *) m_module, symbol_name, symbol) ? true : false);
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaModule.mm:159:	*dest = (char *) UT_strdup(g_module_error());

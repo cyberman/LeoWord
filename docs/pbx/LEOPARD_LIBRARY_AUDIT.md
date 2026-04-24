@@ -272,3 +272,24 @@ Initial conclusion:
 - GLib may remain during restoration.
 - Final LeoWord V1 should replace these localized usage points with Leopard-native facilities where practical.
 - Plugin loading should be deferred from V1, allowing `gmodule` to be removed.
+
+## Direct Cocoa GLib Symbol Result
+
+Direct GLib/GObject/GModule/GThread usage in the Cocoa path is very limited.
+
+Observed direct symbols:
+
+- `g_thread_supported()`
+- `g_thread_init(NULL)`
+- `g_object_unref(model)`
+- `g_module_open()`
+- `g_module_error()`
+- `g_module_close()`
+- `g_module_symbol()`
+
+Initial conclusion:
+
+- GLib is localized, not core-wide.
+- `gmodule` is plugin-related and should be deferred from V1.
+- `gthread` should be removed or replaced if possible.
+- `gobject` needs one targeted check in `xap_CocoaDlg_History.mm`.
