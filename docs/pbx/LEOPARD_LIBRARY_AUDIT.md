@@ -227,3 +227,33 @@ Initial conclusion:
 - OpenDocument / StarWriter support should be deferred from LeoWord V1.
 - `glib`, `gobject`, `gmodule`, and `gthread` should be treated as restoration-only unless proven necessary.
 - V1 Info.plist should not advertise `.odt` / `.sxw` support unless that stack is retained and tested.
+
+## Refined GLib Result
+
+The broad GLib scan was noisy, but real Cocoa-path GLib usage exists.
+
+Important Cocoa files:
+
+- `xap_CocoaApp.mm`
+- `xap_CocoaEncodingManager.mm`
+- `xap_CocoaModule.mm`
+
+Observed direct GLib/GModule usage includes:
+
+- `<glib.h>`
+- `<gmodule.h>`
+- `GList`
+- `g_hash_table_lookup`
+- `g_i18n_get_language_list`
+- `g_module_open`
+- `g_module_close`
+- `g_module_symbol`
+- `g_module_error`
+
+Initial conclusion:
+
+- GLib is not purely OpenDocument/libgsf baggage.
+- The usage is localized and appears replaceable.
+- GLib may remain during restoration.
+- `gmodule` should be removed or replaced if plugin loading is deferred.
+- `gobject`, `gthread`, and `libgsf` remain non-core unless proven otherwise.
