@@ -98,3 +98,25 @@ A dependency may remain only if at least one of the following is true:
 4. It is isolated as an optional plugin dependency.
 
 No dependency is kept merely because AbiWord 2.4.5 used it.
+
+## Leopard 10.5.8 System Library Check - bzip2
+
+Checked on the target iMac G5 / Mac OS X 10.5.8 PowerPC.
+
+Confirmed system bzip2 libraries:
+
+- `/usr/lib/libbz2.1.0.4.dylib`
+- `/usr/lib/libbz2.1.0.5.dylib`
+- `/usr/lib/libbz2.1.0.dylib -> libbz2.1.0.5.dylib`
+- `/usr/lib/libbz2.dylib -> libbz2.1.0.5.dylib`
+
+`otool -L /usr/lib/libbz2.1.0.dylib` reports:
+
+- compatibility version: `1.0.0`
+- current version: `1.0.5`
+
+Initial conclusion:
+
+- bzip2 should prefer the Leopard system library.
+- Bundling `libbz2` from Fink/MacPorts is not justified by default.
+- The old AbiWord build references `libbz2.1.dylib`; Leopard provides `libbz2.1.0.dylib` and `libbz2.dylib`, so the final build must verify linker and install-name behavior.
