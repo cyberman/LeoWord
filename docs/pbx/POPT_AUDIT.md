@@ -83,3 +83,29 @@ Likely deferrable:
 ## Rule
 
 `popt.framework` is allowed only as a temporary restoration dependency.
+
+## Cocoa Startup Path Check
+
+`AP_CocoaApp::main()` still constructs `AP_Args` and calls:
+
+- `Args.parsePoptOpts()`
+- `Args.doWindowlessArgs(...)`
+
+However, normal command-line file opening is disabled in the Cocoa startup path:
+
+- `pMyCocoaApp->openCmdLineFiles(&Args)` is commented out
+- the application unconditionally enters `[NSApp run]`
+
+This means `popt` remains active for option parsing and windowless/CLI modes, but it is not central to normal Cocoa GUI document opening.
+
+## Updated Decision
+
+`popt.framework` is not part of the native Cocoa application core.
+
+For LeoWord V1, `popt` should be treated as:
+
+- acceptable during restoration
+- replaceable before final V1
+- removable if windowless conversion/plugin modes are deferred
+
+A small compatibility shim is likely sufficient if the old `AP_Args` structure must be preserved temporarily.

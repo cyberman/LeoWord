@@ -196,3 +196,16 @@ Initial conclusion:
 - It is not justified as a final LeoWord runtime dependency.
 - A small local compatibility shim should be investigated.
 - Native Cocoa/Finder document opening should eventually supersede command-line file handling for normal GUI use.
+
+## popt Cocoa Startup Result
+
+`AP_CocoaApp::main()` still calls `Args.parsePoptOpts()` and `Args.doWindowlessArgs(...)`.
+
+However, `openCmdLineFiles(&Args)` is commented out and the Cocoa app unconditionally enters `[NSApp run]`.
+
+Initial conclusion:
+
+- `popt` is active for CLI/windowless option parsing.
+- `popt` is not central to normal Cocoa GUI operation.
+- For LeoWord V1, CLI conversion/plugin modes may be deferred.
+- `popt.framework` should remain temporary and should be removed or replaced by a small compatibility shim before final V1 if practical.
