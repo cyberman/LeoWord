@@ -163,3 +163,18 @@ Initial conclusion:
 
 - `libintl` should not be introduced merely for UI localization.
 - Final LeoWord should prefer native `.lproj` and `NSBundle` localization.
+
+## popt Check
+
+`popt` is used by the AbiWord 2.4.5 argument parsing path, especially:
+
+- `ap_Args.h`
+- `ap_Args.cpp`
+- `ap_App.cpp`
+- `ap_CocoaApp.mm`
+
+Initial conclusion:
+
+- `popt.framework` may remain during restoration.
+- It should not be part of the final dependency set if a small local compatibility shim is practical.
+- For a native Cocoa application, a full external command-line parsing framework is not justified by default.

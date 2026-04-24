@@ -1,0 +1,92 @@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/MacOS/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/English.lproj/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/GNUmakefile.in:53:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/GNUmakefile.in:54:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:64:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/Makefile:49:STUPID_STATIC_LIBS= -Wl,-Bstatic -lphS -lpopt 
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:50:#			Abi_libpopt $(ABIICONV) Abi_libpng Abi_zlib
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:54:			Abi_libpopt $(ABIICONV) Abi_libpng
+vendor/abiword-2.4.5/abi/src/wp/main/xp/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaApp.mm:38:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaApp.mm:1100:			poptBadOption (Args->poptcon, 0),
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaApp.mm:1101:			poptStrerror (nextopt),
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaApp.mm:1128:		Args->m_sPlugin = poptGetArg(Args->poptcon);
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXApp.cpp:36:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXApp.cpp:783:	  poptBadOption (Args->poptcon, 0),
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXApp.cpp:784:	  poptStrerror (nextopt),
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:122:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1414:					GNOME_PARAM_POPT_CONTEXT, &Args.poptcon,
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1562:	  poptBadOption (Args->poptcon, 0),
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1563:	  poptStrerror (nextopt),
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1573:/*! Prepares for popt to be callable by setting up Args->options.
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1591:	struct poptOption * opts = (struct poptOption *)
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1592:		UT_calloc(v+1, sizeof(struct poptOption));
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1646:		if ((Args->m_sFile = poptGetArg (Args->poptcon)) != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1689:		if ((Args->m_sFile = poptGetArg (Args->poptcon)) != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1756:		//		szRequest = poptGetArg(Args->poptcon);
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.h:29:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1489:	strcat( pszMessage, poptBadOption (Args->poptcon, 0) );
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1491:	strcat( pszMessage, poptStrerror (nextopt) );
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1535:		if ((Args->m_sFile = poptGetArg (Args->poptcon)) != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1581:		Args->m_sPlugin = poptGetArg(Args->poptcon);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.h:29:#include "popt.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.cpp:54:	poptContext poptcon = args->poptcon;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.cpp:56:	while ((file = poptGetArg (poptcon)) != NULL) {
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.cpp:108:/*! Prepares for popt to be callable by setting up Args->options.
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.cpp:118:	struct poptOption * opts = (struct poptOption *)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.cpp:119:		UT_calloc(i+1, sizeof(struct poptOption));
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_App.h:24:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:35:#include <popt.h>
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:57:struct poptOption * AP_Args::options = NULL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:72:	: XArgs (pArgs), poptcon(NULL), m_bShowSplash(true), m_pApp(pApp)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:79:	if (poptcon != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:80:		poptFreeContext(poptcon);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:87: * Leaves the files to open in the poptContext for ::openCmdLineFiles
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:95:	poptcon = poptGetContext("AbiWord", 
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:99:    while ((nextopt = poptGetNextOpt (poptcon)) > 0 &&
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:120:		poptPrintHelp(poptcon, stdout, 0);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:166:		while ((m_sFile = poptGetArg (poptcon)) != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:181:	  while ((m_sFile = poptGetArg (poptcon)) != NULL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.cpp:204:const struct poptOption AP_Args::const_opts[] =
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.h:25:#include "popt.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.h:39:	poptContext poptcon;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.h:49:	const static struct poptOption const_opts[];
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Args.h:50:	static struct poptOption * options;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:63:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:61:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:62:	$(top_srcdir)/ac-helpers/abi-popt.m4 \
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:166:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:1811:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:2256:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3463:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8376:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8506:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libwpd-0.8 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8658:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8767:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8984:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9068:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9518:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9622:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:11786:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:21932:			path = popt.framework;
