@@ -1,0 +1,10 @@
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:62:#include "wv.h" // for wvLIDToLangConverter
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4536:		xxx_UT_DEBUGMSG(("DOM: lang code (0x%x, %s)\n", param, wvLIDToLangConverter(static_cast<unsigned short>(param))));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4538:		m_currentRTFState.m_charProps.m_szLang = wvLIDToLangConverter(static_cast<unsigned short>(param));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:7649:		pChars->m_szLang = wvLIDToLangConverter(static_cast<unsigned short>(param));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:42:#include "wv.h" //for wvLIDToCodePageConverter
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:656:		const char* cpgname = wvLIDToCodePageConverter(langcode);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:657:		xxx_UT_DEBUGMSG(("Belcon,after wvLIDToCodePageConverter(%d),cpgname=%s\n",langcode,cpgname));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:668:		// NOTE:wvLIDToCodePageConverter,we can deal with them quite fine,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1814:	    xxx_UT_DEBUGMSG(("DOM: lang,lid = %s,%d\n", szLang, wvLangToLIDConverter(szLang)));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1815:	    _rtf_keyword("lang", wvLangToLIDConverter(szLang));

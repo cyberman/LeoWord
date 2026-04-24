@@ -52,3 +52,16 @@ If `.doc` import is deferred, LeoWord V1 must not advertise `.doc` / `.dot` as f
 `wv.framework` is allowed during restoration.
 
 Final LeoWord V1 should keep only the minimum required functionality needed for retained V1 formats.
+
+## RTF Symbol Result
+
+RTF import/export uses only three `wv` helper functions:
+
+- `wvLIDToLangConverter()`
+- `wvLIDToCodePageConverter()`
+- `wvLangToLIDConverter()`
+
+Conclusion:
+
+- RTF does not require the full `wv` parser stack.
+- Final LeoWord V1 should replace or shim these helper functions instead of keeping the full `wv.framework`.

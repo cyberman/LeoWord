@@ -353,3 +353,17 @@ Initial conclusion:
 - RTF remains V1-relevant.
 - The large `wv` parser stack should not be a final V1 dependency unless required.
 - If RTF only needs small LID/codepage helpers, those should be shimmed or extracted rather than keeping the whole Word parser.
+
+## RTF / wv Symbol Result
+
+RTF import/export uses only three `wv` helper functions:
+
+- `wvLIDToLangConverter()`
+- `wvLIDToCodePageConverter()`
+- `wvLangToLIDConverter()`
+
+Initial conclusion:
+
+- `wv.framework` is not justified for final V1 solely to support RTF.
+- The large DOC parser stack should be deferred.
+- A small local RTF language/codepage compatibility layer should replace the required `wv` helper functions.
