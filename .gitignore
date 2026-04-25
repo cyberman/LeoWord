@@ -29,3 +29,14 @@ DerivedData/
 
 # Temporary import/download area
 _incoming/
+
+# Xcode user/local state
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+*.pbxindex
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
