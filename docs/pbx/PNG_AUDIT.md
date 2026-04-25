@@ -245,3 +245,30 @@ The first replacement candidate remains:
 - `UT_PNG_getDimensions()`
 
 The Cocoa backend itself already provides a native rendering path.
+
+## Existing Cocoa Dimension Helper
+
+`GR_CocoaImage::imageFromPNG()` already creates an `NSImage` from PNG data and extracts its size.
+
+Relevant behavior:
+
+- create `NSImage` from `NSData`
+- read `[image size]`
+- return width and height
+
+This is conceptually close to `UT_PNG_getDimensions()`.
+
+## Final PNG Audit Conclusion
+
+PNG should remain LeoWord's internal raster interchange format.
+
+The bundled `png.framework` should be treated as a restoration dependency and a final-V1 removal candidate.
+
+The likely final replacement path is:
+
+1. keep `image/png` document semantics
+2. keep `FG_GraphicRaster`
+3. keep `setRaster_PNG()`
+4. replace `UT_PNG_getDimensions()` with a Cocoa/ImageIO/CoreGraphics implementation
+5. rely on the existing Cocoa image importer and `GR_CocoaImage` for native decoding/rendering
+

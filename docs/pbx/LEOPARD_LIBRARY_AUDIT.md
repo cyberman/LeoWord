@@ -494,3 +494,13 @@ Initial conclusion:
 - `png.framework` is not required for Cocoa-side image rendering.
 - PNG remains the internal raster format.
 - The main final-V1 replacement target is `UT_PNG_getDimensions()`.
+
+## PNG Final Audit Conclusion
+
+`GR_CocoaImage::imageFromPNG()` already uses `NSImage` to decode PNG data and extract dimensions.
+
+Initial conclusion:
+
+- PNG remains the internal raster format.
+- `png.framework` is not conceptually required by LeoWord.
+- A final native V1 should attempt to replace `UT_PNG_getDimensions()` with Cocoa/ImageIO/CoreGraphics logic.
