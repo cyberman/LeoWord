@@ -367,3 +367,13 @@ Initial conclusion:
 - `wv.framework` is not justified for final V1 solely to support RTF.
 - The large DOC parser stack should be deferred.
 - A small local RTF language/codepage compatibility layer should replace the required `wv` helper functions.
+
+## FriBidi Check
+
+`fribidi.framework` is linked and bundled by the old AbiWord 2.4.5 app target.
+
+Initial conclusion:
+
+- Bidirectional text support is a real layout feature.
+- It may be deferred from LeoWord V1 if necessary.
+- The Cocoa port reports `BIDI_SUPPORT_FULL`, so the relationship between AbiWord's internal bidi logic and Leopard-native text behavior must be verified.

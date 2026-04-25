@@ -1,0 +1,3 @@
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.h:101:    virtual BidiSupportType         theOSHasBidiSupport() const;
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:162:XAP_App::BidiSupportType XAP_CocoaApp::theOSHasBidiSupport() const 
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:164:	return BIDI_SUPPORT_FULL;

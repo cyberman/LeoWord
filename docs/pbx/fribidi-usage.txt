@@ -1,0 +1,849 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaTopRuler.mm:174:	bool bRTL = pBlock ? (pBlock->getDominantDirection() == UT_BIDI_RTL) : false;
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaTopRuler.mm:231:	bool bRTL = pBlock ? (pBlock->getDominantDirection() == UT_BIDI_RTL) : false;
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:192:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:193:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:416:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:431:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:447:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:172:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:173:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:396:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:411:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:427:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXLeftRuler.cpp:299://#bidi
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXTopRuler.cpp:321://#bidi
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:205:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:206:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:429:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:444:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:460:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/ap_NautilusView.cpp:260: * "/home/msevior/abidir/abi-cvs/abidistfiles/nautilus-abiword-content-view-ui.xml",
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:183:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:184:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:407:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:422:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:438:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:221:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:222:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:445:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:460:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:476:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:170:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:171:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:394:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:409:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:425:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:716:	// deal with bidi issues, which means we cannot construct the rtf
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Options.cpp:826:	_DS2(OPTIONS_FRM_BidiOptions,			DLG_Options_Label_BiDiOptions);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:315:			// Hide Bidi Check Box unless required
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:317:				HWND hwndBidi = GetDlgItem(hWnd, AP_RID_DIALOG_PARA_CHECK_BIDI);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:318:				ShowWindow(hwndBidi,SW_HIDE);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:319:				ShowWindow(hwndBidi,SW_SHOW);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:334:			_DS(PARA_CHECK_BIDI,		DLG_Para_DomDirection);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:372:			_CDB(PARA_CHECK_BIDI,	id_CHECK_DOMDIRECTION);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Dialog_Paragraph.cpp:523:	_CHECK(PARA_CHECK_BIDI,		id_CHECK_DOMDIRECTION);
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Res_DlgOptions.rc2:81:#define AP_RID_DIALOG_OPTIONS_FRM_BidiOptions			1404
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Res_DlgOptions.rc2:256:                    AP_RID_DIALOG_OPTIONS_FRM_BidiOptions,2,57,290,46
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Res_DlgParagraph.rc2:70:#define AP_RID_DIALOG_PARA_CHECK_BIDI			1038
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Res_DlgParagraph.rc2:108:    CONTROL         "Bidi:",			AP_RID_DIALOG_PARA_CHECK_BIDI,	
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32Res_Manifest.rc2:41:AP_RID_MANIFEST RT_MANIFEST "../../../../../abidistfiles/AbiWord.exe.MANIFEST"
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:203:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:204:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:427:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:442:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:458:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_ListRevisions.cpp:145:		// now we run this string through fribidi
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_ListRevisions.cpp:146:		if(XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_ListRevisions.cpp:155:			UT_BidiCharType iDomDir = UT_bidiGetCharType(pC[0]);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_ListRevisions.cpp:156:			UT_bidiReorderString(pC, iLen, iDomDir, pStr2);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1267:	UT_BidiCharType iDirection = getLists()->getBlock()->getDominantDirection();
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1287:				if(len > 1 && XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_GUI)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1289:					UT_bidiReorderString(lv, len, iDirection, ucs_label);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1301:				if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1309:				if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1319:				if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Lists.cpp:1330:			if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_MarkRevisions.cpp:111:	// now we run this string through fribidi
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_MarkRevisions.cpp:112:	if(XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_MarkRevisions.cpp:121:		UT_BidiCharType iDomDir = UT_bidiGetCharType(pC[0]);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_MarkRevisions.cpp:123:		UT_bidiReorderString(pC, iLen, iDomDir, pStr2);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Options.cpp:612:	// id_CHECK_DIR_MARKER... in the bidi controls !!!)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Paragraph.cpp:1195:	UT_BidiCharType iDir;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Paragraph.cpp:1197:		iDir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Paragraph.cpp:1199:		iDir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Paragraph.cpp:1205:		iDir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:3750:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:3798:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:3880:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:3898:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:4680:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:4695:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:4726:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:4744:		bRTL = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:11327:  UT_BidiCharType iBlockDir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:11332:  allowed = iBlockDir == UT_BIDI_LTR ? margin_left : margin_right;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:11392:	if(pBl->getDominantDirection()== UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:11398:		static_cast<fp_Line *>(static_cast<fl_BlockLayout *>(pBl)->getLastContainer())->getLastRun()->setDirection(UT_BIDI_LTR);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_EditMethods.cpp:11405:		static_cast<fp_Line *>(static_cast<fl_BlockLayout *>(pBl)->getLastContainer())->getLastRun()->setDirection(UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Prefs_SchemeIds.h:145:#ifndef BIDI_RTL_DOMINANT
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:267:  : XAP_Preview(gc), m_dir(UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:350:										   XAP_Dialog * dlg) : XAP_Preview(gc), m_dir(UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:407:	: XAP_Preview(gc),m_dir(UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:458:			m_dir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:510:									 UT_BidiCharType dir)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:711:	if(m_dir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:720:		if(m_dir == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:738:		if(m_dir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:755:		// this will not produce correct results in true bidi text, since the words that are inconsistend
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:762:		UT_bidiReorderString(s.ucs4_str(), s.size(), m_dir, pBuf);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:764:		if(m_dir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.cpp:769:		if(m_dir == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.h:117:				   UT_BidiCharType dir = UT_BIDI_LTR);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Preview_Paragraph.h:152:	UT_BidiCharType m_dir;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Strings.cpp:237:		// now we run this string through fribidi
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Strings.cpp:238:		if(XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Strings.cpp:248:				UT_BidiCharType iDomDir = UT_bidiGetCharType(p[0]);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Strings.cpp:249:				UT_bidiReorderString(p,kLimit, iDomDir, fbdStr2);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Toolbar_Functions.cpp:423:	UT_BidiCharType iBlockDir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Toolbar_Functions.cpp:435:			allowed = iBlockDir == UT_BIDI_LTR ? margin_left : margin_right;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:270://#bidi
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:627:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:743:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:782:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:929:	if(pBlock && pBlock->getDominantDirection() == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:1584:	bool bRTLpara = pBL->getDominantDirection() == UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:1984:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:2096:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:2470:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:2513:			// margins do not require any special bidi treatement; right
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:2879:				bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:3148:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:3274:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:4172:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_TopRuler.cpp:4257:		bRTL = (pBlock->getDominantDirection() == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:202:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:203:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:426:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:441:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:457:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/GNUmakefile.in:41:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/GNUmakefile.in:139:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/GNUmakefile.in:140:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:165:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:166:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:389:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:404:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:420:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:159:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:160:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:383:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:398:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:414:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:164:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:165:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:388:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:403:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:419:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:159:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:160:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:383:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:398:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:414:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:175:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:176:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:399:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:414:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:430:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:65:	m_CharRTL = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:77:	m_CharRTL = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1382:	const XML_Char * szBidiDir = PP_evalProperty("dom-dir",
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1389:	xxx_UT_DEBUGMSG(("bidi paragraph: pSectionAp 0x%x, pBlockAP 0x%x, dom-dir\"%s\"\n",pSectionAP,pBlockAP,szBidiDir));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1390:	if (szBidiDir)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1392:		if (!UT_strcmp (szBidiDir, "ltr"))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1828:			m_CharRTL = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:1835:			m_CharRTL = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:3165:	static const char * t_ff[] = { "fnil", "froman", "fswiss", "fmodern", "fscript", "fdecor", "ftech", "fbidi" };
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.cpp:3197:    static const char * t_ff[] = { "fnil", "froman", "fswiss", "fmodern", "fscript", "fdecor", "ftech", "fbidi" };
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.h:123:	UT_BidiCharType isCharRTL() {return m_CharRTL;}
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.h:124:	void setCharRTL(UT_BidiCharType t) {m_CharRTL = t;}
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF.h:212:	UT_BidiCharType             m_CharRTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:87:	m_pie->setCharRTL(UT_BIDI_UNSET);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1421:		UT_BidiCharType type;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1427:			if(m_pie->isCharRTL() != UT_BIDI_LTR && !FRIBIDI_IS_RTL(type))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1438:				m_pie->setCharRTL(UT_BIDI_LTR);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1440:			else if(m_pie->isCharRTL() != UT_BIDI_RTL && FRIBIDI_IS_RTL(type))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1451:				m_pie->setCharRTL(UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1498:			if(*pData == UCS_LRM && m_pie->isCharRTL() == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1503:			else if(*pData == UCS_RLM && m_pie->isCharRTL() == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:4422:	// TODO <docfmt> -- bidirectional controls
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_Text.cpp:694:				UT_BidiCharType type = UT_bidiGetCharType(*pData);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_Text.cpp:696:				if(m_eDirMarkerPending == DO_RTL && type == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_Text.cpp:701:				else if(m_eDirMarkerPending == DO_RTL && type == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_Text.cpp:707:				else if(m_eDirMarkerPending == DO_LTR && type == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_Text.cpp:712:				else if(m_eDirMarkerPending == DO_LTR && type == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:77://#define BIDI_DEBUG
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:824:	m_iOverrideIssued(UT_BIDI_UNSET),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:825:	m_bBidiMode(false),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1080:	  // bidi adjustments for neutrals
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1082:	  // We have a problem in bidi documents caused by the fact that
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1083:	  // Word does not use the Unicode bidi algorithm, but rather one of
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1101:	  if(m_bBidiMode)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1146:		  UT_BidiCharType iOverride = UT_BIDI_UNSET, cType, cLastType = UT_BIDI_UNSET, cNextType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1150:		  cType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1157:				  cNextType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1161:				  cNextType = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1165:			  if(UT_BIDI_IS_NEUTRAL(cType))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1168:					 && iOverride != UT_BIDI_LTR
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1169:					 && (cLastType != UT_BIDI_LTR || cNextType != UT_BIDI_LTR))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1180:					  iOverride = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1185:						  && iOverride != UT_BIDI_RTL
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1186:						  && (cLastType != UT_BIDI_RTL || cNextType != UT_BIDI_RTL))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1197:					  iOverride = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1206:				  if(iOverride != UT_BIDI_UNSET)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1217:					  iOverride = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1240:		  // non-bidi document, just do it the easy way
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1342:		// test the bidi nature of this document
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1343:#ifdef BIDI_DEBUG
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1344:		m_bBidiMode = wvIsBidiDocument(ps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1345:		UT_DEBUGMSG(("IE_Imp_MsWord_97::_docProc: complex %d, bidi %d\n",
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1346:					 ps->fib.fComplex,m_bBidiMode));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1348:		// for now we will assume that all documents are bidi
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:1351:		m_bBidiMode = false;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2209:	if(asep->fBidi)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2698:	if (apap->fBidi == 1)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:2706:	m_bBidiMode = false;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3153:	if (!achp->fBidi)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3158:	// we enter bidi mode if we encounter a character
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3160:	// paragraph; once in bidi mode, we have to stay there
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:3162:	m_bBidiMode = m_bBidiMode || (m_bLTRCharContext ^ m_bLTRParaContext);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4809:	// achp->fBidi does not mean that the lidBidi is set ...
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4810:	if (achp->fBidi)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4812:		iLid = achp->lidBidi;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4833:	if (achp->fBidi)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4834:		codepage = wvLIDToCodePageConverter (achp->lidBidi);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4854:	bool fBold = (achp->fBidi ? achp->fBoldBidi : achp->fBold);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4860:	bool fItalic = (achp->fBidi ? achp->fItalicBidi : achp->fItalic);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4866:	U8 ico = (achp->fBidi ? achp->icoBidi : achp->ico);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4914:	// I have seen a bidi doc that had hpsBidi == 0, and the actual size in hps
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4915:	U16 hps = (achp->fBidi &&  achp->hpsBidi ? achp->hpsBidi : achp->hps);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4929:	else if (achp->fBidi)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4931:		fname = wvGetFontnameFromCode(&ps->fonts, achp->ftcBidi);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4963:	if (apap->fBidi == 1)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:269:	UT_BidiCharType  m_iOverrideIssued;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.h:270:	bool m_bBidiMode;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:96:	"	fBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:97:	"	fBoldBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:98:	"	fItalicBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:99:	"	ftcBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:100:	"	hpsBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:101:	"	icoBidi %d\n"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:102:	"	lidBidi %d\n",
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:185:		achp->fBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:186:		achp->fBoldBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:187:		achp->fItalicBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:188:		achp->ftcBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:189:		achp->hpsBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:190:		achp->icoBidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_dump.h:191:		achp->lidBidi
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1147:	m_dir = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1148:	m_dirOverride = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1183:	m_dir = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1338:	m_dir = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1407:	m_bBidiMode(false),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1424:	m_iAutoBidiOverride(UT_BIDI_UNSET),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1425:	m_iBidiLastType(UT_BIDI_UNSET),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:1426:	m_iBidiNextType(UT_BIDI_UNSET),
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2459:   Scans the entire document for any rtl tokens and set m_bBidiMode
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2464:UT_Error IE_Imp_RTF::_isBidiDocument()
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2473:	UT_DEBUGMSG(("IE_Imp_RTF::_isBidiDocument: looking for RTL tokens\n"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2496:		UT_DEBUGMSG(("IE_Imp_RTF::_isBidiDocument: found rtl token [%s]\n", token));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2497:		m_bBidiMode = true;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2501:		UT_DEBUGMSG(("IE_Imp_RTF::_isBidiDocument: no rtl token found\n"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2502:		m_bBidiMode = false;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2510:	UT_DEBUGMSG(("IE_Imp_RTF::_isBidiDocument: looking for RTL tokens -- done\n"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2531:	if(m_pImportFile && UT_OK != _isBidiDocument())
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:2635:	m_currentRTFState.m_charProps.m_dirOverride = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:3960:		m_currentRTFState.m_charProps.m_dirOverride = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:3965:		m_currentRTFState.m_charProps.m_dirOverride = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4558:		m_currentRTFState.m_paraProps.m_dir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4559:		//reset doc bidi attribute
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4560:		m_bBidiMode = false;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4564:		m_currentRTFState.m_sectionProps.m_dir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4569:		m_currentRTFState.m_charProps.m_dir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4571:		// we enter bidi mode if we encounter a character
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4573:		// paragraph; once in bidi mode, we have to stay there
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4575:		m_bBidiMode = m_bBidiMode ||
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4782:		m_currentRTFState.m_paraProps.m_dir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4783:		// reset the doc bidi attribute
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4784:		m_bBidiMode = false;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4788:		m_currentRTFState.m_sectionProps.m_dir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4794:		m_currentRTFState.m_charProps.m_dir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4795:		// we enter bidi mode if we encounter a character
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4797:		// paragraph; once in bidi mode, we have to stay there
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:4799:		m_bBidiMode = m_bBidiMode ||
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5560:	if(m_currentRTFState.m_charProps.m_dirOverride == UT_BIDI_LTR)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5564:	else if(m_currentRTFState.m_charProps.m_dirOverride == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5581:// in non-bidi doc we just append the current format and text; in bidi
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5652:	if(m_bBidiMode)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5654:		UT_BidiCharType cType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5658:		cType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5665:				m_iBidiNextType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5669:				m_iBidiNextType = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5673:			if(UT_BIDI_IS_NEUTRAL(cType))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5675:				if(m_currentRTFState.m_charProps.m_dir == UT_BIDI_LTR
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5676:				   && m_iAutoBidiOverride != UT_BIDI_LTR
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5677:				   && (m_iBidiLastType != UT_BIDI_LTR || m_iBidiNextType != UT_BIDI_LTR))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5688:					m_iAutoBidiOverride = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5693:				else if(m_currentRTFState.m_charProps.m_dir == UT_BIDI_RTL
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5694:						&& m_iAutoBidiOverride != UT_BIDI_RTL
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5695:						&& (m_iBidiLastType != UT_BIDI_RTL || m_iBidiNextType != UT_BIDI_RTL))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5706:					m_iAutoBidiOverride = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5716:				if(m_iAutoBidiOverride != UT_BIDI_UNSET)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5727:					m_iAutoBidiOverride = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5743:			m_iBidiLastType = cType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5744:			cType = m_iBidiNextType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5760:		// not a bidi doc, just do it the simple way
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5837:	if(m_bBidiMode)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5839:		UT_BidiCharType cType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5843:		cType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5850:				m_iBidiNextType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5854:				m_iBidiNextType = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5858:			if(UT_BIDI_IS_NEUTRAL(cType))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5860:				if(m_currentRTFState.m_charProps.m_dir == UT_BIDI_LTR
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5861:				   && m_iAutoBidiOverride != UT_BIDI_LTR
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5862:				   && (m_iBidiLastType != UT_BIDI_LTR || m_iBidiNextType != UT_BIDI_LTR))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5881:					m_iAutoBidiOverride = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5886:				else if(m_currentRTFState.m_charProps.m_dir == UT_BIDI_RTL
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5887:						&& m_iAutoBidiOverride != UT_BIDI_RTL
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5888:						&& (m_iBidiLastType != UT_BIDI_RTL || m_iBidiNextType != UT_BIDI_RTL))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5902:					m_iAutoBidiOverride = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5912:				if(m_iAutoBidiOverride != UT_BIDI_UNSET)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5926:					m_iAutoBidiOverride = UT_BIDI_UNSET;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5941:			m_iBidiLastType = cType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5942:			cType = m_iBidiNextType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:5961:		// not a bidi doc, just do it the simple way
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:6377:	if(m_currentRTFState.m_paraProps.m_dir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:7070:	if(m_currentRTFState.m_sectionProps.m_dir != UT_BIDI_UNSET)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:7077:		if(m_currentRTFState.m_sectionProps.m_dir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.cpp:8232:			case RTF_KW_fbidi:
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:99:	UT_BidiCharType m_dir;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:100:	UT_BidiCharType m_dirOverride;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:230:	UT_BidiCharType m_dir;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:421:	UT_BidiCharType m_dir;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:786:	UT_Error _isBidiDocument();
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:890:	bool                  m_bBidiMode;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:911:	UT_BidiCharType       m_iAutoBidiOverride;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:912:	UT_BidiCharType       m_iBidiLastType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTF.h:913:	UT_BidiCharType       m_iBidiNextType;
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:451:	RTF_KW_fbidi,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:799:	RTF_KW_pgnbidia,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:800:	RTF_KW_pgnbidib,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:872:	RTF_KW_pnbidia,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywordIDs.h:873:	RTF_KW_pnbidib,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:445:	{"fbidi", false, false, NO_CONTEXT, RTF_KW_fbidi }, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:793:	{"pgnbidia", false, false, NO_CONTEXT, RTF_KW_pgnbidia }, /* 2000 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:794:	{"pgnbidib", false, false, NO_CONTEXT, RTF_KW_pgnbidib }, /* 2000 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:866:	{"pnbidia", false, false, NO_CONTEXT, RTF_KW_pnbidia }, /* 2000 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFKeywords.h:867:	{"pnbidib", false, false, NO_CONTEXT, RTF_KW_pnbidib }, /* 2000 */ 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:256:			UT_BidiCharType type = UT_bidiGetCharType(*p);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:258:			if(UT_BIDI_IS_STRONG(type))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:270:				if(UT_BIDI_IS_RTL(type))
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:293:					UT_BidiCharType next_type = UT_bidiGetCharType(*(p+1));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_Text.cpp:294:					if(UT_BIDI_IS_STRONG(next_type))
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:135:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:136:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/GNUmakefile.in:150:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/GNUmakefile.in:151:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/MacOS/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/MacOS/GNUmakefile.in:135:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/MacOS/GNUmakefile.in:136:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/English.lproj/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/English.lproj/GNUmakefile.in:133:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/English.lproj/GNUmakefile.in:134:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/GNUmakefile.in:150:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/GNUmakefile.in:151:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/GNUmakefile.in:41:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/GNUmakefile.in:139:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/GNUmakefile.in:140:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/GNUmakefile.in:42:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/GNUmakefile.in:131:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/GNUmakefile.in:132:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:190:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:191:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:415:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:430:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:446:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:47:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:148:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:149:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:372:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:387:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:403:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:52:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:188:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:189:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:412:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:427:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:443:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:186:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:187:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:410:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:425:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:441:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:186:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:187:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:410:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:425:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:441:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:49:#			AbiEv AbiUtil AbiImpExp AbiWordVer AbiSpell Abi_libwv fribidi \
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:53:ABI_PERIPHLIBS=		Abi_libwv fribidi Abi_libexpat \
+vendor/abiword-2.4.5/abi/src/wp/main/xp/GNUmakefile.in:43:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/xp/GNUmakefile.in:131:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/main/xp/GNUmakefile.in:132:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:47:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:148:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:149:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:372:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:387:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:403:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:188:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:189:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:412:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:427:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:443:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:188:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:189:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:412:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:427:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:443:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:47:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:139:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:140:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:363:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:378:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:394:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:153:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:154:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:377:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:392:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:408:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:169:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:170:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:393:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:408:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:424:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:161:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:162:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:385:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:400:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:416:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:168:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:169:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:392:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:407:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:423:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:162:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:163:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:386:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:401:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:417:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:3: * BIDI Copyright (C) 2001,2002 Tomas Frydrych
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:51:	// it would appear that the glib memory functions that fribidi uses
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:53:	// temp. FribidiChar strings we allocate overlap with the memory chunk that
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:54:	// fribidi allocates for creating type links, and when we copy our string
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:63:	if(XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:114:				UT_BidiCharType iDomDir = UT_bidiGetCharType(fbdStr[0]);
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:117:// weird memory managment in the fribidi library; so I defined
+vendor/abiword-2.4.5/abi/src/af/ev/xp/ev_Toolbar_Labels.cpp:119:				UT_bidiReorderString(fbdStr, j, iDomDir, fbdStr2);
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:166:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:167:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:390:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:405:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:421:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/GNUmakefile.in:41:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/GNUmakefile.in:139:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/GNUmakefile.in:140:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:151:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:152:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:375:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:390:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:406:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:164:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:165:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:388:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:403:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:419:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/unix/gr_UnixGraphics.cpp:1625:	//behaviour in the bidi build; I think the new arrow is better
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:161:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:162:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:385:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:400:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:416:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:427:		if(getApp()->theOSHasBidiSupport() != XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:554:		// The bidi aspect of the drawing is handled as follows:
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:555:		//     1. The OS has no bidi support: use simple ExTextOut
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:556:		//        call, since all the bidi processing has been already
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:559:		//     2. If the OS has bidi support: we will not use it for
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:565:		if(getApp()->theOSHasBidiSupport() != XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Graphics.cpp:587:			if(getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_GUI)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Uniscribe.h:93:    WORD    uBidiLevel         :5;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Uniscribe.h:116:    DWORD   fLegacyBidiClass    :1;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32USPGraphics.cpp:750:	ss.uBidiLevel = I.getEmbedingLevel();
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32USPGraphics.cpp:751:	ss.fOverrideDirection = I.getDirOverride() == FRIBIDI_TYPE_UNSET ? 0 : 1;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32USPGraphics.cpp:771:	sc.fLegacyBidiClass = 0; 
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32USPGraphics.cpp:917:	pItem->m_si.a.fRTL = si.m_iVisDir == UT_BIDI_RTL ? 1 : 0;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32USPGraphics.cpp:1059:	if(si.m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:164:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:165:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:388:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:403:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:419:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Caret.h:71:    // for bidi
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:41:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:852:	if (UT_bidiGetMirrorChar(c,mc))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:871:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:914:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:943:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1080:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1098:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1126:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1139:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1150:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1176:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1185:											  UT_BidiCharType    iDirection,
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1368:			if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1477:											UT_BidiCharType iDirection,
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.cpp:1492:		if(iDirection == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.h:119:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.h:124:								 UT_BidiCharType   iDirection,
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.h:135:							   UT_BidiCharType   iDirection,
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.h:147:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_ContextGlyph.h:162:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:752:    The default implementation that only deals with bidi reordering
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:770:		UT_BidiCharType iPrevType, iLastStrongType = UT_BIDI_UNSET, iType;
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:776:		iType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:794:			iType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:817:		UT_BidiCharType iNextType;
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:823:			if(UT_BIDI_IS_STRONG(iType))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:833:			iType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:847:				if(UT_BIDI_IS_NEUTRAL(iPrevType) && UT_BIDI_IS_NEUTRAL(iType))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:856:				if(UT_BIDI_IS_STRONG(iPrevType) && UT_BIDI_IS_NEUTRAL(iType))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:873:						iNextType = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:884:						if(UT_BIDI_IS_STRONG(iNextType))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:891:				else if(UT_BIDI_IS_NEUTRAL(iPrevType) && UT_BIDI_IS_STRONG(iType))
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:1025:	bool bReverse = (ri.m_iVisDir == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_Graphics.cpp:1045:	//bool bReverse = (RI.m_iVisDir == UT_BIDI_RTL);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:366:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:384:			if(m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:444:		if(m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:458:			if(m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:470:			if(m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:529:	if(m_iVisDir == UT_BIDI_RTL)
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.cpp:698:	if(m_iVisDir == UT_BIDI_RTL )
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:161:	void            setDirOverride(UT_BidiCharType o) {m_iDirOverride = o;}
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:162:	UT_BidiCharType getDirOverride() const {return m_iDirOverride;}
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:175:	UT_BidiCharType m_iDirOverride;
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:212:		  m_pText(NULL), m_iVisDir(UT_BIDI_LTR),
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:242:	UT_BidiCharType     m_iVisDir;
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:315:				   UT_BidiCharType iVisDir,
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_RenderInfo.h:330:	UT_BidiCharType     m_iVisDir;
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:162:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:163:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:386:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:401:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:417:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:157:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:158:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:381:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:396:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:412:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:171:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:172:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:395:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:410:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:426:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:162:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:163:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:386:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:401:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:417:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:162:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:163:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:386:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:401:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:417:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:163:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:164:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:387:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:402:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:418:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:26:#include <fribidi.h>
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:72:UT_BidiCharType UT_bidiGetCharType(UT_UCS4Char c)
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:74:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:75:	return fribidi_get_type(c);
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:77:	return UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:81:bool UT_bidiReorderString(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:84:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:86:	UT_ASSERT_HARMLESS( sizeof(UT_UCS4Char) == sizeof(FriBidiChar) );
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:87:	return (0 != fribidi_log2vis ((FriBidiChar *)pStrIn, len, &baseDir, (FriBidiChar*)pStrOut, NULL, NULL, NULL));
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:99:bool UT_bidiMapLog2Vis(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:102:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:104:	UT_ASSERT_HARMLESS( sizeof(UT_UCS4Char) == sizeof(FriBidiChar) );
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:105:	return (0 != fribidi_log2vis ((FriBidiChar *)pStrIn, len, &baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:106:								  NULL, (FriBidiStrIndex*)pL2V, (FriBidiStrIndex*)pV2L, (FriBidiLevel*)pEmbed));
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:121:bool UT_bidiGetMirrorChar(UT_UCS4Char c, UT_UCS4Char &mc)
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:123:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_Win32String.cpp:124:	return (0 != fribidi_get_mirror_char(c, (FriBidiChar*)&mc));
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:200:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:201:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:424:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:439:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:455:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_misc.cpp:698:				UT_BidiCharType t = UT_bidiGetCharType(currentChar);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_misc.cpp:699:				if(UT_BIDI_IS_NSM(t) || UT_BIDI_IS_LETTER(t))
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:38:#include <fribidi.h>
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1160:    UT_BidiCharType type = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1161:    return (UT_BIDI_IS_LETTER(type) != 0);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1345:    UT_BidiCharType type = UT_bidiGetCharType(c);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1346:    return (UT_BIDI_IS_LETTER(type) != 0);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1819:UT_BidiCharType UT_bidiGetCharType(UT_UCS4Char c)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1821:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1822:	return fribidi_get_type(c);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1824:	return UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1831:bool UT_bidiReorderString(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1836:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1839:	if(sizeof(FriBidiChar) > sizeof(UT_UCS4Char))
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1841:		static FriBidiChar* pFBDC = NULL;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1842:		static FriBidiChar* pFBDC2 = NULL;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1850:			pFBDC = new FriBidiChar [len + 1];
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1851:			pFBDC2 = new FriBidiChar [len + 1];
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1861:			pFBDC[i] = (FriBidiChar) pStrIn[i];
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1866:		int iRet = fribidi_log2vis (pFBDC, len, &baseDir, pFBDC2, NULL, NULL, NULL);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1879:		return (0 != fribidi_log2vis ((FriBidiChar *)pStrIn, len, &baseDir, (FriBidiChar*)pStrOut, NULL, NULL, NULL));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1893:bool UT_bidiMapLog2Vis(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1896:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1898:	UT_ASSERT_HARMLESS( sizeof(UT_UCS4Char) == sizeof(FriBidiChar) );
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1899:	return (0 != fribidi_log2vis ((FriBidiChar *)pStrIn, len, &baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1900:								  NULL, (FriBidiStrIndex*)pL2V, (FriBidiStrIndex*)pV2L, (FriBidiLevel*)pEmbed));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1914:bool UT_bidiGetMirrorChar(UT_UCS4Char c, UT_UCS4Char &mc)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1916:#ifndef NO_BIDI_SUPPORT
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.cpp:1917:	return (0 != fribidi_get_mirror_char(c, (FriBidiChar*)&mc));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:259:#include <fribidi.h>
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:261:typedef FriBidiCharType UT_BidiCharType;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:263:#define UT_BIDI_LTR FRIBIDI_TYPE_LTR
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:264:#define UT_BIDI_RTL FRIBIDI_TYPE_RTL
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:265:#define UT_BIDI_WS FRIBIDI_TYPE_WS
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:266:#define UT_BIDI_EN FRIBIDI_TYPE_EN
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:267:#define UT_BIDI_ES FRIBIDI_TYPE_ES
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:268:#define UT_BIDI_ET FRIBIDI_TYPE_ET
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:269:#define UT_BIDI_AN FRIBIDI_TYPE_AN
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:270:#define UT_BIDI_CS FRIBIDI_TYPE_CS
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:271:#define UT_BIDI_BS FRIBIDI_TYPE_BS
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:272:#define UT_BIDI_SS FRIBIDI_TYPE_SS
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:273:#define UT_BIDI_AL FRIBIDI_TYPE_AL
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:274:#define UT_BIDI_NSM FRIBIDI_TYPE_NSM
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:275:#define UT_BIDI_RLE FRIBIDI_TYPE_RLE
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:276:#define UT_BIDI_LRE FRIBIDI_TYPE_LRE
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:277:#define UT_BIDI_LRO FRIBIDI_TYPE_LRO
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:278:#define UT_BIDI_RLO FRIBIDI_TYPE_RLO
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:279:#define UT_BIDI_PDF FRIBIDI_TYPE_PDF
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:280:#define UT_BIDI_ON FRIBIDI_TYPE_ON
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:283:#define UT_BIDI_UNSET FRIBIDI_TYPE_UNSET
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:284:#define UT_BIDI_IGNORE FRIBIDI_TYPE_IGNORE
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:286:#define UT_BIDI_IS_STRONG FRIBIDI_IS_STRONG
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:287:#define UT_BIDI_IS_WEAK FRIBIDI_IS_WEAK
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:288:#define UT_BIDI_IS_NUMBER FRIBIDI_IS_NUMBER
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:289:#define UT_BIDI_IS_RTL FRIBIDI_IS_RTL
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:290:#define UT_BIDI_IS_NEUTRAL FRIBIDI_IS_NEUTRAL
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:291:#define UT_BIDI_IS_LETTER FRIBIDI_IS_LETTER
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:292:#define UT_BIDI_IS_NSM(x) ((x) & FRIBIDI_MASK_NSM)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:295:ABI_EXPORT UT_BidiCharType UT_bidiGetCharType(UT_UCS4Char c);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:297:ABI_EXPORT bool            UT_bidiMapLog2Vis(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:300:ABI_EXPORT bool            UT_bidiReorderString(const UT_UCS4Char * pStrIn, UT_uint32 len, UT_BidiCharType baseDir,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_string.h:304:ABI_EXPORT bool            UT_bidiGetMirrorChar(UT_UCS4Char c, UT_UCS4Char &mc);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_types.h:267:/* This is a value from the private-use space of FriBidi */
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_types.h:268:#define FRIBIDI_TYPE_UNSET -1
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_types.h:269:#define FRIBIDI_TYPE_IGNORE -2
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:182:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:183:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:406:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:421:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:437:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.h:101:    virtual BidiSupportType         theOSHasBidiSupport() const;
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:162:XAP_App::BidiSupportType XAP_CocoaApp::theOSHasBidiSupport() const 
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaApp.mm:164:	return BIDI_SUPPORT_FULL;
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:179:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:180:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:403:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:418:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:434:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:175:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:176:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:399:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:414:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:430:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/xap_QNXApp.h:64:  virtual XAP_App::BidiSupportType  theOSHasBidiSupport() const {return BIDI_SUPPORT_GUI;}
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:167:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:168:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:391:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:406:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:422:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:205:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:206:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:429:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:444:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:460:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:160:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:161:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:384:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:399:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:415:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:157:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:158:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:381:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:396:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:412:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixApp.h:101:    virtual XAP_App::BidiSupportType  theOSHasBidiSupport() const {return BIDI_SUPPORT_GUI;}
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixFrameImpl.cpp:1077:	//behaviour in the bidi build; I think the new arrow is better
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:185:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:186:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:409:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:424:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:440:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:3: * BIDI Copyright (c) 2001-2004 Tomas Frydrych
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:69:	_setBidiOS();
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:464:void XAP_Win32App::_setBidiOS(void)
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:467:	m_eBidiOS = XAP_App::BIDI_SUPPORT_NONE;
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:469:	I have run into problems with the built-in win32 bidi support -- it is inconsistent
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:472:	the win32 bidi altogether and treating it as a non-bidi system, but there does
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:517:		m_eBidiOS = XAP_App::BIDI_SUPPORT_GUI;
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:518:		UT_DEBUGMSG(("System has bidi and glyph shaping\n"));
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:528:			m_eBidiOS = XAP_App::BIDI_SUPPORT_GUI;
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.cpp:529:			UT_DEBUGMSG(("System has bidi\n"));
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.h:3: * BIDI Copyright (c) 2001,2002 Tomas Frydrych
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.h:84:    virtual XAP_App::BidiSupportType        theOSHasBidiSupport() const {return m_eBidiOS;}
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.h:97:	void									_setBidiOS(void);
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32App.h:110:	XAP_App::BidiSupportType		        m_eBidiOS;
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-fribidi.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:204:FRIBIDI_CFLAGS = @FRIBIDI_CFLAGS@
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:205:FRIBIDI_LIBS = @FRIBIDI_LIBS@
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:428:	-I'$(top_srcdir)/src/other/fribidi/xp' \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:443:	@PROFILE_CFLAGS@ @XML_CFLAGS@ @SCRIPT_CFLAGS@ @PLUGIN_CFLAGS@ @FRIBIDI_CFLAGS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:459:OTHER_LIBS = @SPELL_LIBS@ @XML_LIBS@ @SCRIPT_LIBS@ @PLUGIN_LIBS@ @FRIBIDI_LIBS@ \
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_App.h:197:	typedef enum {BIDI_SUPPORT_NONE, BIDI_SUPPORT_GUI, BIDI_SUPPORT_FULL} BidiSupportType;
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_App.h:199:	virtual BidiSupportType				theOSHasBidiSupport() const {return BIDI_SUPPORT_NONE;}
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:3: * BIDI Copyright (C) 2001,2002 Tomas Frydrych
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:141:// (bidi processing, we only need this in the disk stringset)
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:235:		// now we run this string through fribidi
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:236:		if(XAP_App::getApp()->theOSHasBidiSupport() == XAP_App::BIDI_SUPPORT_NONE)
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:247:				// FriBidiCharType fbdDomDir = fribidi_get_type(fbdStr[0]);
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:248:				UT_BidiCharType iDomDir = UT_BIDI_LTR;
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:251:				   iDomDir = UT_BIDI_RTL;
+vendor/abiword-2.4.5/abi/src/af/xap/xp/xap_Strings.cpp:253:				UT_bidiReorderString(p, kLimit, iDomDir, fbdStr2);
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:165:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:166:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:274:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:275:				HEADER_SEARCH_PATHS = "$(SRCROOT)/../link-grammar $(SRCROOT)/../fribidi";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:1810:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ GMV_HAVE_EXT_HASH_MAP";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:1811:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:2255:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ HAVE_EXT_HASH_MAP";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:2256:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3462:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3463:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3819:			path = abidicdl;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8375:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8376:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8505:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8506:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libwpd-0.8 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8657:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8658:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8766:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8767:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8983:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8984:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9067:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9068:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9517:				GCC_PREPROCESSOR_DEFINITIONS = "ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9518:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9621:				GCC_PREPROCESSOR_DEFINITIONS = "XHTML_HTML_XML2_SUPPORTED=1 ABI_BUILD_VERSION=\\\"2.4.5\\\" STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9622:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:11784:				GCC_PREPROCESSOR_DEFINITIONS = "ABIWORD_APP_NAME=\\\"AbiWord\\\" PACKAGE=\\\"AbiSuite-2.4\\\" VERSION=\\\"2.4.5\\\" ABISUITE_HOME=\\\"\\\" HAVE_ENCHANT=1 STDC_HEADERS=1 HAVE_LIMITS_H=1 HAVE_STRINGS_H=1 HAVE_SYS_TIME_H=1 HAVE_UNISTD_H=1 HAVE_SYS_TYPES_H=1 HAVE_SYS_STAT_H=1 HAVE_STDLIB_H=1 HAVE_STRING_H=1 HAVE_MEMORY_H=1 HAVE_STRINGS_H=1 HAVE_INTTYPES_H=1 HAVE_STDINT_H=1 HAVE_UNISTD_H=1 WORDS_BIGENDIAN=1 HAVE_LIBXML=1 HAVE_WV=1 HAVE_ALLOCA=1 RETSIGTYPE=void HAVE_REGCOMP=1 HAVE_STRDUP=1 HAVE_STRSTR=1 HAVE_NET_IF_H HAVE_SA_LEN BIDI_ENABLED HAVE_THREADS=1 _REENTRANT NO_SYS_ERRLIST XP_TARGET_COCOA XP_MAC_TARGET_MACOSX XP_MAC_TARGET_QUARTZ ABI_BUILD_VERSION=\\\"2.4.5\\\" ABIWORD_APP_LIBDIR=\\\"AbiWord\\\" HAVE_EXT_HASH_MAP";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:11786:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:29854:			path = fribidi.framework;
+vendor/abiword-2.4.5/abipbx/AbiWord-DMG-ReadMe/README.html:65:      <ul><li>Bidirectional text input has improved, but I'm still not happy with it.</li>
