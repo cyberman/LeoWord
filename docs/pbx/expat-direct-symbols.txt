@@ -1,0 +1,10 @@
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:125:  XML_Parser parser = XML_ParserCreate (NULL);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:135:  XML_SetElementHandler (parser, _startElement, _endElement);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:136:  XML_SetCharacterDataHandler (parser, _charData);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:150:      if (!XML_Parse (parser, buffer, length, done))
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:158:  XML_ParserFree (parser);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:179:  XML_Parser parser = XML_ParserCreate (NULL);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:188:  XML_SetElementHandler (parser, _startElement, _endElement);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:189:  XML_SetCharacterDataHandler (parser, _charData);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:199:  if (!XML_Parse (parser, buffer, static_cast<int>(length), 1))
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp:205:  XML_ParserFree (parser);

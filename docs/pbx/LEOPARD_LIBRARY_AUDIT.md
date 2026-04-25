@@ -516,3 +516,13 @@ Initial conclusion:
 - `enchant.framework` may remain during restoration.
 - It should be treated as replaceable.
 - Final LeoWord should prefer `NSSpellChecker` if practical.
+
+## Expat / XML Check
+
+XML support is core because ABW is XML-based.
+
+Initial conclusion:
+
+- XML support remains in LeoWord V1.
+- The bundled `expat.framework` must justify itself against Leopard-provided system XML libraries.
+- If `/usr/lib/libexpat` is available and compatible, LeoWord should prefer it over a bundled framework.

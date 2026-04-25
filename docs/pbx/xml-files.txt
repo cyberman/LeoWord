@@ -1,0 +1,7 @@
+vendor/abiword-2.4.5/abi/src/af/util/win/ut_xml_msxml.cpp
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml.cpp
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_expat.cpp
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml.h
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_xml_libxml2.cpp
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_XML.cpp
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_XML.h
