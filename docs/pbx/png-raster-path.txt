@@ -1,0 +1,42 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXApp.cpp:479:		UT_PNG_getDimensions(pBB, iSplashWidth, iSplashHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:1288:			bool pngReturnVal = UT_PNG_getDimensions(pBB, iSplashWidth, iSplashHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixClipboard.cpp:43:#define AP_CLIPBOARD_IMAGE_PNG                  "image/png"
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1160:		UT_PNG_getDimensions(pBB, iSplashWidth, iSplashHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatFrame.cpp:273:		UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatFrame.cpp:517:						UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatTable.cpp:254:		UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatTable.cpp:430:							UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/ie_impGraphic_Cocoa.mm:93:	if(!pFGR->setRaster_PNG(m_pPngBB)) {
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:107:	if(!pFGR->setRaster_PNG(m_pPngBB)) 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:4339:	if (UT_strcmp (szMimeType, "image/png") != 0)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:4341:		UT_DEBUGMSG(("Object not of MIME type image/png - ignoring...\n"));
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:4436:	UT_PNG_getDimensions(pByteBuf, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:4482:	m_utf8_1 += " src=\"data:image/png;base64,";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:4523:			m_utf8_1 = "image/png";
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:1198:			UT_PNG_getDimensions(pbb,iImageWidth,iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:4749:	UT_PNG_getDimensions(pbb,iImageWidth,iImageHeight);
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_FileInfo.h:74:#define IE_MIME_PNG			"image/png"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_AbiWord_1.cpp:1182:	return (val ? val : "image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_AbiWord_1.cpp:1370:			// <d name="ID" mime-type="image/png" base64="yes"> ... </d>
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_AbiWord_1.cpp:1390:							if (strcmp (*attr, "image/png") == 0)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_AbiWord_1.cpp:1432:							ri->type ("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_GraphicAsDocument.cpp:66:	   mimetype =UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4127:  mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4250:  mimetype = UT_strdup ("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFObjectsAndPicts.cpp:218:		mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFObjectsAndPicts.cpp:344:		mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_XHTML.cpp:1150:		char * mimetype = UT_strdup ("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:74:	if(!pFGR->setRaster_PNG(pBB)) {
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_EmbedManager.cpp:321:    UT_PNG_getDimensions(const_cast<const UT_ByteBuf*>(pEView->m_PNGBuf), iWidth,iHeight);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_EmbedManager.cpp:341:    UT_PNG_getDimensions(const_cast<const UT_ByteBuf*>(pEView->m_PNGBuf), iWidth,iHeight);
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_EmbedManager.cpp:411:      UT_PNG_getDimensions(const_cast<const UT_ByteBuf*>(pEView->m_PNGBuf), iWidth,iHeight);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:47:bool UT_PNG_getDimensions(const UT_ByteBuf* pBB, UT_sint32& iImageWidth, UT_sint32& iImageHeight)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.h:35:ABI_EXPORT bool UT_PNG_getDimensions(const UT_ByteBuf* pBB, UT_sint32& iImageWidth, UT_sint32& iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaClipboard.mm:34:const char *	XAP_CocoaClipboard::XAP_CLIPBOARD_IMAGE 			=		"image/png";
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.mm:719:						UT_PNG_getDimensions(png, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/xap_QNXDlg_About.cpp:257:	UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixDlg_About.cpp:178:	UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixDlg_FileOpenSaveAs.cpp:941:		UT_PNG_getDimensions (png, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixFrameImpl.cpp:109:		{"image/png", 0, TARGET_IMAGE},
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32Dlg_About.cpp:97:	UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32Dlg_FileOpenSaveAs.cpp:698:		UT_PNG_getDimensions(pBB, iImageWidth, iImageHeight);

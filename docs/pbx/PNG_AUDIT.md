@@ -92,3 +92,41 @@ The goal is to remove the bundled `png.framework` dependency where Leopard-nativ
 - Replace `ut_png.cpp` with ImageIO/CoreGraphics later if practical.
 - Investigate whether `ie_impGraphic_PNG.*` can be superseded by the Cocoa importer or rewritten on top of ImageIO.
 - Do not remove PNG support before testing embedded images, RTF image import/export, and image dimensions.
+
+## Raster Path Result
+
+`setRaster_PNG()` is called from a very small set of importer paths:
+
+- Cocoa image importer
+- Unix/GdkPixbuf image importer
+- explicit PNG graphic importer
+
+The broader scan shows that AbiWord uses `image/png` as an internal raster/embedded-graphic representation across several document import/export paths.
+
+Important uses include:
+
+- ABW embedded image import
+- RTF image import/export
+- XHTML/HTML image handling
+- clipboard image MIME handling
+- embedded object/image dimensions
+- `UT_PNG_getDimensions()`
+
+## Updated Interpretation
+
+LeoWord should not remove PNG as an internal document/image representation.
+
+The real target is the bundled `png.framework`, not PNG itself.
+
+The preferred final architecture is:
+
+- keep `image/png` as the internal raster interchange format
+- keep `setRaster_PNG()` unless a larger graphic-layer refactor is justified
+- replace direct libpng usage in `UT_PNG_getDimensions()` with ImageIO/CoreGraphics if practical
+- use the existing Cocoa image importer as the native front-end for common image import
+
+## Rule
+
+PNG remains a retained V1 behavior.
+
+The bundled `png.framework` remains only a temporary implementation dependency.

@@ -446,3 +446,15 @@ Initial conclusion:
 - AbiWord still uses PNG as an internal raster interchange format.
 - `png.framework` remains acceptable during restoration.
 - Final LeoWord should investigate replacing direct libpng usage in `ut_png.cpp` and `ie_impGraphic_PNG.*` with ImageIO/CoreGraphics.
+
+## PNG Raster Path Result
+
+PNG is used as an internal raster/embedded-image representation through `image/png`.
+
+`setRaster_PNG()` is called from only a few importer paths, including the Cocoa image importer and the explicit PNG importer.
+
+Initial conclusion:
+
+- PNG as an internal format stays in V1.
+- `png.framework` remains temporary.
+- `UT_PNG_getDimensions()` is the prime candidate for ImageIO/CoreGraphics replacement.
