@@ -1,38 +1,56 @@
 # LeoWord FriBidi Audit
 
-## Purpose
+## Finding
 
-This audit determines whether `fribidi.framework` is essential for LeoWord V1 or whether bidirectional text support can be deferred or delegated to Leopard-native text facilities.
+`fribidi.framework` is substantially different from other audited dependencies.
 
-## Initial Context
+It is not merely tied to an optional importer or UI convenience feature. AbiWord's internal utility and layout code uses FriBidi through the `UT_bidi*` abstraction layer.
 
-The old AbiWord 2.4.5 Mac/PPC app target links and bundles `fribidi.framework`.
+Observed core abstractions include:
 
-The Cocoa app layer reports OS bidi support via:
+- `UT_BidiCharType`
+- `UT_BIDI_*` macros
+- `UT_bidiGetCharType()`
+- `UT_bidiReorderString()`
+- `UT_bidiMapLog2Vis()`
+- `UT_bidiGetMirrorChar()`
+
+These are backed by FriBidi symbols such as:
+
+- `fribidi_get_type()`
+- `fribidi_log2vis()`
+- `fribidi_get_mirror_char()`
+
+## Cocoa Context
+
+The Cocoa port reports:
 
 - `theOSHasBidiSupport()`
 - `BIDI_SUPPORT_FULL`
 
-## LeoWord Interpretation
+However, LeoWord does not simply delegate all text layout to `NSTextView`. AbiWord has its own document model and layout/rendering machinery.
 
-Bidirectional text support is a real text-layout feature, not mere historical baggage.
+Therefore, native OS bidi support does not automatically eliminate the need for AbiWord's internal bidi classification and reordering helpers.
 
-However, LeoWord V1 should prioritize a small, stable, native Leopard writing core. Full bidi support may be deferred if it requires retaining a non-native dependency stack.
+## V1 Decision
 
-## V1 Decision Bias
+`fribidi.framework` should be kept for restoration and likely for LeoWord V1.
 
-- Restoration phase: `fribidi.framework` may remain temporarily.
-- Final V1: remove or defer `fribidi.framework` if bidi support is not part of V1 scope.
-- If retained, it must be justified as essential to active retained layout behavior.
+It is a justified dependency until a safe compatibility replacement exists.
 
-## Native Candidate
+## Future Replacement Strategy
 
-Leopard text systems may provide bidi behavior through native Cocoa/Core Text/AppKit text handling, but AbiWord's own layout engine may not automatically benefit from that unless integrated.
+Any future replacement must happen behind the existing `UT_bidi*` boundary.
 
-Therefore this requires code-level verification.
+Possible approach:
+
+1. Keep the `UT_bidi*` API stable.
+2. Replace the implementation only after V1.
+3. Investigate whether Leopard/CoreFoundation/AppKit can provide equivalent character classification, logical-to-visual mapping, and mirror character handling.
+4. If not, keep FriBidi as a compact justified dependency.
 
 ## Rule
 
-Do not keep `fribidi.framework` merely because AbiWord 2.4.5 linked it.
+Do not remove FriBidi merely for dependency purity.
 
-Keep it only if active V1 text layout requires it and no native replacement is practical.
+Unlike `popt`, `libintl`, `wv`, `libgsf`, or `gmodule`, FriBidi is tied to active text/layout semantics.

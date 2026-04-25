@@ -377,3 +377,23 @@ Initial conclusion:
 - Bidirectional text support is a real layout feature.
 - It may be deferred from LeoWord V1 if necessary.
 - The Cocoa port reports `BIDI_SUPPORT_FULL`, so the relationship between AbiWord's internal bidi logic and Leopard-native text behavior must be verified.
+
+## FriBidi Result
+
+`fribidi.framework` is an active text/layout dependency.
+
+The Cocoa port reports `BIDI_SUPPORT_FULL`, but AbiWord's own utility layer still defines and implements bidi helpers through FriBidi-backed abstractions:
+
+- `UT_BidiCharType`
+- `UT_BIDI_*`
+- `UT_bidiGetCharType()`
+- `UT_bidiReorderString()`
+- `UT_bidiMapLog2Vis()`
+- `UT_bidiGetMirrorChar()`
+
+Initial conclusion:
+
+- FriBidi should remain during restoration.
+- FriBidi should likely remain in LeoWord V1.
+- Any replacement must preserve the `UT_bidi*` API boundary.
+- Removal should be deferred until after a working native V1 exists.
