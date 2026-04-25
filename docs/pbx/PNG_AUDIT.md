@@ -130,3 +130,51 @@ The preferred final architecture is:
 PNG remains a retained V1 behavior.
 
 The bundled `png.framework` remains only a temporary implementation dependency.
+
+## FG_GraphicRaster Result
+
+`FG_GraphicRaster` explicitly documents that its internal raster file format is PNG.
+
+Relevant files:
+
+- `abi/src/text/fmt/xp/fg_GraphicRaster.h`
+- `abi/src/text/fmt/xp/fg_GraphicRaster.cpp`
+
+`setRaster_PNG()` stores the PNG byte buffer, marks ownership, and then calls:
+
+- `UT_PNG_getDimensions()`
+
+This confirms that the main libpng dependency is not the document model itself, but the implementation used to inspect PNG data.
+
+## Updated Architecture Decision
+
+LeoWord should keep:
+
+- `image/png` as the internal raster MIME type
+- `FG_GraphicRaster`
+- `setRaster_PNG()`
+- existing document image semantics
+
+LeoWord should replace:
+
+- direct libpng usage inside `UT_PNG_getDimensions()`
+- later, possibly the explicit PNG importer implementation
+
+## Native Replacement Target
+
+The cleanest first replacement target is:
+
+- `UT_PNG_getDimensions()`
+
+Potential Leopard-native implementation:
+
+- `NSData`
+- `CGImageSource`
+- ImageIO
+- CoreGraphics
+
+## Rule
+
+Do not refactor the document model to remove PNG.
+
+Only replace the non-native PNG implementation layer.

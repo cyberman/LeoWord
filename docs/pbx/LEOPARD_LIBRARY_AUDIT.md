@@ -458,3 +458,15 @@ Initial conclusion:
 - PNG as an internal format stays in V1.
 - `png.framework` remains temporary.
 - `UT_PNG_getDimensions()` is the prime candidate for ImageIO/CoreGraphics replacement.
+
+## FG_GraphicRaster / PNG Result
+
+`FG_GraphicRaster` uses PNG as its internal raster file format.
+
+`setRaster_PNG()` only stores the byte buffer and obtains dimensions through `UT_PNG_getDimensions()`.
+
+Initial conclusion:
+
+- PNG remains part of LeoWord V1's internal image model.
+- `png.framework` is still an implementation dependency, not a conceptual dependency.
+- The best native replacement point is `UT_PNG_getDimensions()`.
