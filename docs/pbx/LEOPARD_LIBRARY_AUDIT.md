@@ -504,3 +504,15 @@ Initial conclusion:
 - PNG remains the internal raster format.
 - `png.framework` is not conceptually required by LeoWord.
 - A final native V1 should attempt to replace `UT_PNG_getDimensions()` with Cocoa/ImageIO/CoreGraphics logic.
+
+## Enchant / Spellcheck Check
+
+`enchant.framework` is linked and bundled by the old AbiWord 2.4.5 app target.
+
+Leopard provides native AppKit spellchecking through `NSSpellChecker`.
+
+Initial conclusion:
+
+- `enchant.framework` may remain during restoration.
+- It should be treated as replaceable.
+- Final LeoWord should prefer `NSSpellChecker` if practical.

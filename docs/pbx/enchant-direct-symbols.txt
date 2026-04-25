@@ -1,0 +1,21 @@
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:47:static size_t s_enchant_broker_count = 0;
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:48:static EnchantBroker * s_enchant_broker = 0;
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:53:	if (s_enchant_broker_count == 0)
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:54:		s_enchant_broker = enchant_broker_init ();
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:55:	s_enchant_broker_count++;
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:60:	UT_return_if_fail (s_enchant_broker);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:63:		enchant_broker_free_dict (s_enchant_broker, m_dict);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:65:	s_enchant_broker_count--;
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:66:	if (s_enchant_broker_count == 0) {
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:67:		enchant_broker_free (s_enchant_broker);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:68:		s_enchant_broker = 0;
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:81:	switch (enchant_dict_check (m_dict, utf8.utf8_str(), utf8.byteLength())) 
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:105:	suggestions = enchant_dict_suggest (m_dict, utf8.utf8_str(), utf8.byteLength(), &n_suggestions);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:114:		enchant_dict_free_suggestions (m_dict, suggestions);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:126:		enchant_dict_add_to_personal (m_dict, utf8.utf8_str(), utf8.byteLength());
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:137:	return enchant_dict_is_in_session (m_dict, ignore.utf8_str(), ignore.byteLength());
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:147:	enchant_dict_add_to_session (m_dict, ignore.utf8_str(), ignore.byteLength());
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:161:	enchant_dict_store_replacement (m_dict,
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:170:	UT_return_val_if_fail (s_enchant_broker, false);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/enchant_checker.cpp:178:	m_dict = enchant_broker_request_dict(s_enchant_broker, lang);
+vendor/abiword-2.4.5/abi/src/other/spell/xp/GNUmakefile.in:84:	enchant_checker.cpp ispell_checker.cpp good.cpp tgood.cpp \

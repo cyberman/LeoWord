@@ -1,0 +1,6 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.cpp:43:SpellChecker *
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.cpp:54:	SpellChecker * checker = _getDict();
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.cpp:60:	if (checker->checkWord (word, len) == SpellChecker::LOOKUP_SUCCEEDED)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.cpp:243:				   SpellChecker * checker = _getDict();
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.cpp:258:					if (checker->checkWord(m_pWord, m_iWordLength) == SpellChecker::LOOKUP_FAILED)
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_Spell.h:52:	SpellChecker * _getDict();
