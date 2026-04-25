@@ -1,0 +1,187 @@
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:36:static void _write_png( png_structp png_ptr, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:37:		        png_bytep data, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:38:		        png_size_t length )
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:40:	UT_ByteBuf* bb = static_cast<UT_ByteBuf*>(png_get_io_ptr(png_ptr));
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:46://static void _write_flush(png_structp png_ptr) { } // Empty Fuction.
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:85:		png_destroy_write_struct(&m_pPNG, &m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:98:	png_destroy_write_struct(&m_pPNG, &m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:142:		png_destroy_write_struct(&m_pPNG, &m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:154:	png_destroy_write_struct(&m_pPNG, &m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:188:	png_set_IHDR ( m_pPNG,  m_pPNGInfo,
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:197:	png_write_info(m_pPNG, m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:198:	png_set_compression_level(m_pPNG,3); // 3 is much faster and keeps a reasonable size
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:204:		png_write_row(m_pPNG, pngScanline);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:210:	png_write_end(m_pPNG, m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:368:	m_pPNG = png_create_write_struct( PNG_LIBPNG_VER_STRING, 
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:377:	m_pPNGInfo = png_create_info_struct(m_pPNG);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:380:			png_destroy_write_struct(&m_pPNG, static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:386:	 * set up your own error handlers in the png_create_read_struct() earlier.
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:390:			/* Free all of the memory associated with the png_ptr and info_ptr */
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:391:			png_destroy_write_struct(&m_pPNG, &m_pPNGInfo);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:399:	png_set_write_fn(m_pPNG, static_cast<void *>(m_pPngBB), static_cast<png_rw_ptr>(_write_png), NULL);
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.h:60:	png_structp m_pPNG;				// libpng structure for the PNG Object
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.h:61:	png_infop   m_pPNGInfo;			// libpng structure for info on the PNG Object
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impexp_Register.cpp:63:  IE_ImpGraphic::registerImporter(new IE_ImpGraphicPNG_Sniffer ());
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:26:UT_Confidence_t IE_ImpGraphicPNG_Sniffer::recognizeSuffix(const char * szSuffix)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:33:UT_Confidence_t IE_ImpGraphicPNG_Sniffer::recognizeContents(const char * szBuf, UT_uint32 iNumbytes)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:45:bool IE_ImpGraphicPNG_Sniffer::getDlgLabels(const char ** pszDesc,
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:55:UT_Error IE_ImpGraphicPNG_Sniffer::constructImporter(IE_ImpGraphic **ppieg)
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.h:26:class IE_ImpGraphicPNG_Sniffer : public IE_ImpGraphicSniffer
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.h:38:class IE_ImpGraphic_PNG : public IE_ImpGraphic
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:53:static void _png_read(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:55:	struct _bb* p = (struct _bb*) png_get_io_ptr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:62:static void _png_write(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:64:	UT_ByteBuf* pBB = (UT_ByteBuf*) png_get_io_ptr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:69:static void _png_flush(png_structp /* png_ptr */)
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:105:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:106:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:109:	png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, (png_voidp)NULL,
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:110:									  (png_error_ptr)NULL, (png_error_ptr)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:112:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:115:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:118:		png_destroy_write_struct(&png_ptr,  (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:125:	png_set_write_fn(png_ptr, (void *)pBB, _png_write, _png_flush);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:130:	png_set_IHDR(png_ptr,
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:141:	png_write_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:178:		png_write_rows(png_ptr, &pThisRow, 1);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:189:	png_write_end(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:192:	png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:226:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:227:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:228:	png_uint_32 width, height;
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:231:	png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING, (void*) NULL,
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:234:	if (png_ptr == NULL)
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:240:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:243:		png_destroy_read_struct(&png_ptr, (png_infopp)NULL, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:249:	 * set up your own error handlers in the png_create_read_struct() earlier.
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:251:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:253:		/* Free all of the memory associated with the png_ptr and info_ptr */
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:254:		png_destroy_read_struct(&png_ptr, &info_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:264:	png_set_read_fn(png_ptr, (void *)&myBB, _png_read);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:266:	/* The call to png_read_info() gives us all of the information from the
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:269:	png_read_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:271:	png_get_IHDR(png_ptr, info_ptr, &width, &height, &bit_depth, &color_type,
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:277:	png_set_packing(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:280:	png_set_expand(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:284:	png_set_strip_16(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:287:	png_set_gray_to_rgb(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:290:	png_set_strip_alpha(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:293:	UT_uint32 iInterlacePasses = png_set_interlace_handling(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:296:	png_set_bgr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:326:			png_read_rows(png_ptr, &pRow, NULL, 1);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:334:	png_read_end(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:337:	png_destroy_read_struct(&png_ptr, &info_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:63:static void _png_read(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:65:	struct _bb* p = (struct _bb*) png_get_io_ptr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:95:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:96:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:97:	png_uint_32 width, height;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:100:	png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING, (void*) NULL,
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:103:	if (png_ptr == NULL)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:109:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:112:		png_destroy_read_struct(&png_ptr, (png_infopp)NULL, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:118:	 * set up your own error handlers in the png_create_read_struct() earlier.
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:120:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:122:		/* Free all of the memory associated with the png_ptr and info_ptr */
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:123:		png_destroy_read_struct(&png_ptr, &info_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:133:	png_set_read_fn(png_ptr, (void *)&myBB, _png_read);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:135:	/* The call to png_read_info() gives us all of the information from the
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:138:	png_read_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:140:	png_get_IHDR(png_ptr, info_ptr, &width, &height, &bit_depth, &color_type,
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:146:	png_set_packing(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:149:	png_set_expand(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:153:	png_set_strip_16(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:156:	png_set_gray_to_rgb(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:159:	png_set_strip_alpha(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:162:	UT_uint32 iInterlacePasses = png_set_interlace_handling(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:165:	png_set_bgr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:176:		png_destroy_read_struct(&png_ptr, &info_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:208:			png_read_rows(png_ptr, &pRow, NULL, 1);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:213:	png_read_end(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:216:	png_destroy_read_struct(&png_ptr, &info_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:226:static void _png_write(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:228:	UT_ByteBuf* pBB = (UT_ByteBuf*) png_get_io_ptr(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:233:static void _png_flush(png_structp png_ptr)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:237:static void _png_warning(png_structp png_ptr, png_const_charp message)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:241:static void _png_error(png_structp png_ptr, png_const_charp message)
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:256:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:257:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:260:	png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, (png_voidp)NULL,
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:261:									  (png_error_ptr)NULL, (png_error_ptr)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:263:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:266:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:269:		png_destroy_write_struct(&png_ptr,  (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:276:	png_set_write_fn(png_ptr, (void *)pBB, _png_write, _png_flush);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:297:	png_set_IHDR(png_ptr,
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:308:	png_write_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:463:		png_write_rows(png_ptr, &pRow, 1);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:474:	png_write_end(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:477:	png_destroy_write_struct(&png_ptr, (png_infopp)NULL);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:38:static void _png_read(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:40:	struct _bb* p = static_cast<struct _bb*>(png_get_io_ptr(png_ptr));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:49:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:50:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:51:	png_uint_32 width, height;
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:54:	png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING, static_cast<void*>(NULL),
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:57:	if (png_ptr == NULL)
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:63:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:66:		png_destroy_read_struct(&png_ptr, static_cast<png_infopp>(NULL), static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:72:	 * set up your own error handlers in the png_create_read_struct() earlier.
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:74:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:76:		/* Free all of the memory associated with the png_ptr and info_ptr */
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:77:		png_destroy_read_struct(&png_ptr, &info_ptr, static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:87:	png_set_read_fn(png_ptr, static_cast<void *>(&myBB), static_cast<png_rw_ptr>(_png_read));
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:89:	/* The call to png_read_info() gives us all of the information from the
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:92:	png_read_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:94:	png_get_IHDR(png_ptr, info_ptr, &width, &height, &bit_depth, &color_type,
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:98:	png_destroy_read_struct(&png_ptr, &info_ptr, static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:47:static void _png_read(png_structp png_ptr, png_bytep data, png_size_t length)
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:49:	struct _bb* p = static_cast<struct _bb*>(png_get_io_ptr(png_ptr));
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:57:png_simple_error_callback(png_structp png_save_ptr,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:58:                          png_const_charp error_msg)
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:62:  longjmp (png_save_ptr->jmpbuf, 1);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:66:png_simple_warning_callback(png_structp png_save_ptr,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:67:                            png_const_charp warning_msg)
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:73:setup_png_transformations(png_structp png_read_ptr, png_infop png_info_ptr,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:74:                          png_uint_32* width_p, png_uint_32* height_p,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:77:        png_uint_32 width, height;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:83:        /* Must check bit depth, since png_get_IHDR generates an 
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:86:        bit_depth = png_get_bit_depth (png_read_ptr, png_info_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:91:        png_get_IHDR (png_read_ptr, png_info_ptr,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:106:                png_set_expand (png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:112:                png_set_expand (png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:114:        } else if (png_get_valid (png_read_ptr, 
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:115:                                  png_info_ptr, PNG_INFO_tRNS)) {
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:119:                png_set_expand(png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:124:                png_set_expand(png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:127:                /* Conceivably, png_set_packing() is a better idea;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:134:                png_set_strip_16(png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:140:                png_set_gray_to_rgb(png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:145:                png_set_interlace_handling(png_read_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:149:        png_read_update_info(png_read_ptr, png_info_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:151:        png_get_IHDR (png_read_ptr, png_info_ptr,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:182:        channels = png_get_channels(png_read_ptr, png_info_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:214:	png_structp png_ptr;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:215:	png_infop info_ptr;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:217:	png_uint_32 w, h;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:218:	png_bytepp volatile rows = NULL;
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:220:	png_ptr = png_create_read_struct(PNG_LIBPNG_VER_STRING, static_cast<void*>(NULL),
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:221:					 png_simple_error_callback,
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:222:					 png_simple_warning_callback);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:224:	if (png_ptr == NULL)
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:228:	info_ptr = png_create_info_struct(png_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:231:	    png_destroy_read_struct(&png_ptr, static_cast<png_infopp>(NULL), static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:237:	 * set up your own error handlers in the png_create_read_struct() earlier.
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:239:	if (setjmp(png_ptr->jmpbuf))
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:243:	    /* Free all of the memory associated with the png_ptr and info_ptr */
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:244:	    png_destroy_read_struct(&png_ptr, &info_ptr, static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:254:	png_set_read_fn(png_ptr, static_cast<void *>(&myBB), _png_read);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:256:	/* The call to png_read_info() gives us all of the information from the
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:259:	png_read_info(png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:261:	if(!setup_png_transformations(png_ptr, info_ptr, &w, &h, &ctype, &m_hasAlpha)) {
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:262:	  png_destroy_read_struct (&png_ptr, &info_ptr, NULL);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:303:	    png_destroy_read_struct(&png_ptr, &info_ptr, static_cast<png_infopp>(NULL));
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:309:	rows = g_new (png_bytep, h);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:314:	png_read_image (png_ptr, rows);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:315:        png_read_end (png_ptr, info_ptr);
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:320:	png_destroy_read_struct(&png_ptr, &info_ptr, static_cast<png_infopp>(NULL));

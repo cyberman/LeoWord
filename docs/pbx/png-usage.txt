@@ -1,0 +1,141 @@
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/ap_CocoaApp.mm:46:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/cocoa/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/ap_QNXApp.cpp:71:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/qnx/Makefile:80:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/ap_UnixApp.cpp:71:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/gnome/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/hildon/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/unix/Makefile:85:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv -DABIWORD_PLUGINDIR="\"$(prefix)/lib/AbiWord-2.4/plugins/\""
+vendor/abiword-2.4.5/abi/src/wp/ap/win/ap_Win32App.cpp:1051:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/ap/win/Makefile:82:INCLUDES+= -I$(ABI_XX_ROOT)/../wv -I$(ABI_XX_ROOT)/../wv/exporter -I$(ABI_ZLIB_INC) -I$(ABI_XX_ROOT)/../wv/libole2 -I$(ABI_XX_ROOT)/../libpng -I$(ABI_XX_ROOT)/../libiconv/include
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatFrame.cpp:51:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/ap_Dialog_FormatTable.cpp:48:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/ap/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/qnx/Makefile:31:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:385:	 * the normal method of doing things with libpng).  REQUIRED unless you
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.h:39:#include <png.h>
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.h:60:	png_structp m_pPNG;				// libpng structure for the PNG Object
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.h:61:	png_infop   m_pPNGInfo;			// libpng structure for info on the PNG Object
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/Makefile:37:INCLUDES+= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../psiconv
+vendor/abiword-2.4.5/abi/src/wp/impexp/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_HTML.cpp:46:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_exp_RTF_listenerWriteDoc.cpp:35:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:59:INCLUDES= -I$(ABI_XX_ROOT)/../wv -I$(ABI_XX_ROOT)/../wv/exporter -I$(ABI_ZLIB_INC) -I$(ABI_XX_ROOT)/../wv/libole2 -I$(ABI_XX_ROOT)/../libpng -I$(ABI_XX_ROOT)/../libiconv/include
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/Makefile:64:INCLUDES= -I$(ABI_ROOT)/../wv -I$(ABI_ROOT)/../wv/exporter -I$(ABI_ROOT)/../wv/libole2 -I$(ABI_ROOT)/../libpng
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Frameworks/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/MacOS/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/English.lproj/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/Contents/Resources/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/AbiWord.app/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/bundle/GNUmakefile.in:50:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/cocoa/Makefile:44:			AbiEv AbiUtil AbiWordVer AbiSpell Abi_libpng Abi_libwv Abi_libiconv
+vendor/abiword-2.4.5/abi/src/wp/main/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/qnx/GNUmakefile.in:60:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/unix/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/win/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:50:#			Abi_libpopt $(ABIICONV) Abi_libpng Abi_zlib
+vendor/abiword-2.4.5/abi/src/wp/main/win/Makefile:54:			Abi_libpopt $(ABIICONV) Abi_libpng
+vendor/abiword-2.4.5/abi/src/wp/main/xp/GNUmakefile.in:51:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/unix/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/wp/test/xp/GNUmakefile.in:55:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/cocoa/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/gnome/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/unix/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/ev/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/GNUmakefile.in:49:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/cocoa/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:22:#include <png.h>
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:108:	// initialize some libpng stuff
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:114:	// libpng will longjmp back to here if a fatal error occurs
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:124:	// We want libpng to write to our ByteBuf, not stdio
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:187:	  Wrap things up with libpng
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:248:	 * the normal method of doing things with libpng).  REQUIRED unless you
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/gr_QNXImage.cpp:292:	/*  We want libpng to deinterlace the image for us */
+vendor/abiword-2.4.5/abi/src/af/gr/qnx/Makefile:28:INCLUDES=		-I$(ABI_ROOT)/../libpng  -I$(ABI_ROOT)/../zlib
+vendor/abiword-2.4.5/abi/src/af/gr/unix/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:37:#include "png.h"
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:117:	 * the normal method of doing things with libpng).  REQUIRED unless you
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:161:	/*  We want libpng to deinterlace the image for us */
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:259:	// initialize some libpng stuff
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:265:	// libpng will longjmp back to here if a fatal error occurs
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:275:	// We want libpng to write to our ByteBuf, not stdio
+vendor/abiword-2.4.5/abi/src/af/gr/win/gr_Win32Image.cpp:472:	  Wrap things up with libpng
+vendor/abiword-2.4.5/abi/src/af/gr/win/Makefile:31:INCLUDES=		-I$(ABI_XX_ROOT)/../libpng	\
+vendor/abiword-2.4.5/abi/src/af/gr/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/gr/xp/gr_EmbedManager.cpp:24:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/tf/GNUmakefile.in:57:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/tf/xp/GNUmakefile.in:57:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/unix/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/xp/Makefile:88:INCLUDES = -I$(ABI_XX_ROOT)/../libpng -I$(ABI_ZLIB_INC) -I$(ABI_XX_ROOT)/../libiconv/include
+vendor/abiword-2.4.5/abi/src/af/util/xp/Makefile:96:INCLUDES = -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../zlib
+vendor/abiword-2.4.5/abi/src/af/util/xp/Makefile:100:#INCLUDES += -I$(ABI_ROOT)/../libpng -I$(ABI_ROOT)/../zlib
+vendor/abiword-2.4.5/abi/src/af/util/xp/Makefile:103:# libpng, add lines like this to the "ifeq" group above.
+vendor/abiword-2.4.5/abi/src/af/util/xp/t/GNUmakefile.in:57:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:27:#include <png.h>
+vendor/abiword-2.4.5/abi/src/af/util/xp/ut_png.cpp:71:	 * the normal method of doing things with libpng).  REQUIRED unless you
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/cocoa/xap_CocoaDlg_FileOpenSaveAs.mm:34:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/qnx/xap_QNXDlg_About.cpp:39:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/unix/gnome/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/GNUmakefile.in:59:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/hildon/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/t/GNUmakefile.in:57:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixDlg_About.cpp:41:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixDlg_FileOpenSaveAs.cpp:51:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSGraphics.cpp:1198:		  libpng says that we should do this:
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:21:#include <png.h>
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:128:                 * God only knows how libpng works
+vendor/abiword-2.4.5/abi/src/af/xap/unix/xap_UnixPSImage.cpp:236:	 * the normal method of doing things with libpng).  REQUIRED unless you
+vendor/abiword-2.4.5/abi/src/af/xap/win/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32Dlg_About.cpp:44:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/win/xap_Win32Dlg_FileOpenSaveAs.cpp:23:#include "ut_png.h"
+vendor/abiword-2.4.5/abi/src/af/xap/xp/GNUmakefile.in:58:	$(top_srcdir)/ac-helpers/abi-libpng.m4 \
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:166:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:3463:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:5933:			path = ut_canvas_png.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8376:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8506:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libwpd-0.8 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8658:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8767:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:8984:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9068:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9518:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:9622:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:11786:				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/png.framework/Headers $(BUILD_DIR)/enchant.framework/Headers $(BUILD_DIR)/wv.framework/Headers $(BUILD_DIR)/fribidi.framework/Headers $(BUILD_DIR)/popt.framework/Headers /sw/include /sw/include/gtkmathview /sw/include/libgsf-1 /sw/include/libxml2 /sw/include/glib-2.0 /sw/lib/glib-2.0/include $(SRCROOT)/../abi/src/wp/ap/xp/ToolbarIcons";
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:27793:			path = ut_png.h;
+vendor/abiword-2.4.5/abipbx/abipbx2.pbproj/project.pbxproj:29840:			path = png.framework;
+vendor/abiword-2.4.5/pbx/pngpbx/pngpbx2.pbproj/project.pbxproj:429:			path = png.framework;
+vendor/abiword-2.4.5/pbx/pngpbx/pngpbx2.pbproj/project.pbxproj:468:			name = libpng;
+vendor/abiword-2.4.5/pbx/pngpbx/pngpbx2.pbproj/project.pbxproj:469:			path = ../libpng;
+vendor/abiword-2.4.5/pbx/pngpbx/pngpbx2.pbproj/project.pbxproj:485:			path = png.h;
+vendor/abiword-2.4.5/pbx/README:17:to build wv, expat, popt, libpng and fribidi as MacOS X frameworks
+vendor/abiword-2.4.5/pbx/wvpbx/config.h:87:/* define if you have libpng */
+vendor/abiword-2.4.5/pbx/wvpbx/ReadMe-building.rtf:22:\f2 png.framework
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:246:				HEADER_SEARCH_PATHS = "$(SRCROOT)/../wv $(BUILD_DIR)/png.framework/Headers /sw/include /sw/include/glib-2.0 /sw/lib/glib-2.0/include";
+vendor/abiword-2.4.5/pbx/wvpbx/wvpbx2.pbproj/project.pbxproj:2959:			path = png.framework;

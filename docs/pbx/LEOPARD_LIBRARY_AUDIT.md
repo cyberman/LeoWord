@@ -397,3 +397,14 @@ Initial conclusion:
 - FriBidi should likely remain in LeoWord V1.
 - Any replacement must preserve the `UT_bidi*` API boundary.
 - Removal should be deferred until after a working native V1 exists.
+
+## PNG Check
+
+Leopard provides ImageIO.framework, and ImageIO links internally against `libPng.dylib`.
+
+Initial conclusion:
+
+- `png.framework` is suspicious as a final LeoWord V1 dependency.
+- It may remain during restoration.
+- Final V1 should prefer `NSImage`, ImageIO, CoreGraphics, or Quartz for PNG handling if practical.
+- CLI PNG conversion and thumbnail generation may be deferred.
