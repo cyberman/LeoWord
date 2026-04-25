@@ -1,0 +1,9 @@
+vendor/abiword-2.4.5/abi/src/wp/impexp/cocoa/ie_impGraphic_Cocoa.mm:93:	if(!pFGR->setRaster_PNG(m_pPngBB)) {
+vendor/abiword-2.4.5/abi/src/wp/impexp/unix/ie_impGraphic_GdkPixbuf.cpp:107:	if(!pFGR->setRaster_PNG(m_pPngBB)) 
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_GraphicAsDocument.cpp:66:	   mimetype =UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4127:  mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_MsWord_97.cpp:4250:  mimetype = UT_strdup ("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFObjectsAndPicts.cpp:218:		mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_RTFObjectsAndPicts.cpp:344:		mimetype = UT_strdup("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_imp_XHTML.cpp:1150:		char * mimetype = UT_strdup ("image/png");
+vendor/abiword-2.4.5/abi/src/wp/impexp/xp/ie_impGraphic_PNG.cpp:74:	if(!pFGR->setRaster_PNG(pBB)) {

@@ -178,3 +178,30 @@ Potential Leopard-native implementation:
 Do not refactor the document model to remove PNG.
 
 Only replace the non-native PNG implementation layer.
+
+## Render Path Result
+
+`FG_GraphicRaster::generateImage()` passes the stored PNG byte buffer into the graphics backend via:
+
+- `GR_Graphics::createNewImage(...)`
+
+For the Cocoa backend, the relevant implementation is:
+
+- `abi/src/af/gr/cocoa/gr_CocoaGraphics.mm`
+- `GR_CocoaGraphics::createNewImage(...)`
+
+This confirms the clean replacement boundary.
+
+LeoWord should keep:
+
+- `FG_GraphicRaster`
+- `image/png`
+- `setRaster_PNG()`
+- the PNG byte buffer as internal raster representation
+
+LeoWord should investigate native replacement in:
+
+1. `UT_PNG_getDimensions()`
+2. `GR_CocoaGraphics::createNewImage()`
+3. possibly `ie_impGraphic_PNG.*`
+

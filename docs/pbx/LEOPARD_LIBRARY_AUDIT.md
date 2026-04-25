@@ -470,3 +470,15 @@ Initial conclusion:
 - PNG remains part of LeoWord V1's internal image model.
 - `png.framework` is still an implementation dependency, not a conceptual dependency.
 - The best native replacement point is `UT_PNG_getDimensions()`.
+
+## PNG Render Path Result
+
+`FG_GraphicRaster::generateImage()` sends the PNG byte buffer to `GR_Graphics::createNewImage()`.
+
+For Cocoa, this routes into `GR_CocoaGraphics::createNewImage()`.
+
+Initial conclusion:
+
+- PNG as internal raster data is retained.
+- The Cocoa render path provides a natural native replacement boundary.
+- Further inspection should focus on `GR_CocoaGraphics::createNewImage()` and `GR_CocoaImage`.
