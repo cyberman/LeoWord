@@ -482,3 +482,15 @@ Initial conclusion:
 - PNG as internal raster data is retained.
 - The Cocoa render path provides a natural native replacement boundary.
 - Further inspection should focus on `GR_CocoaGraphics::createNewImage()` and `GR_CocoaImage`.
+
+## PNG Cocoa Render Result
+
+The Cocoa graphics backend already renders PNG byte buffers natively through `NSImage`.
+
+`GR_CocoaImage::_convertPNGFromBuffer()` uses `[[NSImage alloc] initWithData:data]`.
+
+Initial conclusion:
+
+- `png.framework` is not required for Cocoa-side image rendering.
+- PNG remains the internal raster format.
+- The main final-V1 replacement target is `UT_PNG_getDimensions()`.

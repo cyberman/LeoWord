@@ -205,3 +205,43 @@ LeoWord should investigate native replacement in:
 2. `GR_CocoaGraphics::createNewImage()`
 3. possibly `ie_impGraphic_PNG.*`
 
+
+## Cocoa Render Result
+
+The Cocoa rendering path already decodes PNG byte buffers natively.
+
+Relevant files:
+
+- `abi/src/af/gr/cocoa/gr_CocoaGraphics.mm`
+- `abi/src/af/gr/cocoa/gr_CocoaImage.h`
+- `abi/src/af/gr/cocoa/gr_CocoaImage.mm`
+
+`GR_CocoaGraphics::createNewImage()` creates a `GR_CocoaImage` for raster images and passes the PNG byte buffer to `convertFromBuffer()`.
+
+`GR_CocoaImage::convertFromBuffer()` stores the PNG data as `NSData` and calls `_convertPNGFromBuffer()`.
+
+`_convertPNGFromBuffer()` creates the actual display image with:
+
+- `[[NSImage alloc] initWithData:data]`
+
+## Interpretation
+
+This confirms that the Cocoa backend already renders internal PNG data through native AppKit image handling.
+
+Therefore `png.framework` is not fundamental to the Cocoa render path.
+
+The remaining important libpng usage is primarily:
+
+- `UT_PNG_getDimensions()`
+- explicit PNG importer code
+- possibly non-Cocoa platform paths, which are not LeoWord V1 targets
+
+## Updated Decision
+
+LeoWord should keep PNG as the internal raster format but replace the bundled `png.framework` implementation layer where practical.
+
+The first replacement candidate remains:
+
+- `UT_PNG_getDimensions()`
+
+The Cocoa backend itself already provides a native rendering path.
