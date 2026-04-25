@@ -1,48 +1,56 @@
 # LeoWord PNG Audit
 
-## Purpose
+## Finding
 
-This audit determines whether the old `png.framework` is essential for LeoWord V1 or can be replaced with Leopard-native ImageIO/CoreGraphics facilities.
+PNG support in AbiWord 2.4.5 is broader than a simple application-resource issue, but it is not part of the core text/layout engine in the same way as FriBidi.
 
-## Initial Context
+Observed PNG-related areas:
 
-Mac OS X 10.5.8 provides ImageIO.framework.
+- application and documentation PNG resources
+- Cocoa bundle PNG resources, including cursors and small UI assets
+- `ut_png.cpp`
+- `ut_png.h`
+- `ie_impGraphic_PNG.cpp`
+- `ie_impGraphic_PNG.h`
+- PNG graphic importer registration via `IE_ImpGraphicPNG_Sniffer`
+- RTF/HTML/embedded graphics paths that include or rely on `ut_png`
 
-On the target iMac G5 / Leopard system, ImageIO.framework links internally against:
+## Interpretation
 
-- `libPng.dylib`
+`png.framework` is not a text engine dependency.
 
-Therefore Leopard itself already provides PNG capability.
+It is primarily an image import/export and resource-handling dependency.
 
-## Questions
+Mac OS X 10.5.8 already provides native PNG capability through ImageIO/CoreGraphics/NSImage, so a bundled `png.framework` should not be accepted permanently without justification.
 
-The audit distinguishes between:
+## V1 Decision
 
-1. PNG use for application resources and toolbar icons.
-2. PNG use for embedded document graphics.
-3. PNG import filters.
-4. PNG export filters.
-5. CLI/windowless PNG conversion modes.
-6. Thumbnail generation.
+- Restoration phase: keep `png.framework`.
+- Early LeoWord V1: keep temporarily if required for stable embedded image handling.
+- Final LeoWord V1: replace with native Leopard image APIs if practical.
 
-## LeoWord Interpretation
+## Replacement Boundary
 
-`png.framework` should not be kept merely because AbiWord 2.4.5 bundled it.
+The preferred replacement boundary is:
 
-If PNG usage is limited to image import/export and toolbar/resource handling, LeoWord should investigate replacing it with:
+- `ut_png`
+- `ie_impGraphic_PNG`
+- Cocoa-specific graphic importer code
+
+Possible native replacements:
 
 - `NSImage`
 - ImageIO
-- CoreGraphics
-- Quartz
+- CoreGraphics / Quartz
 
-## V1 Bias
+## Important Distinction
 
-- Restoration phase: `png.framework` may remain temporarily.
-- Final V1: prefer ImageIO/CoreGraphics if practical.
-- CLI `--to-png` and thumbnail modes may be deferred.
-- Embedded document PNG support is more important than CLI PNG conversion.
+Many PNG files in the source tree are screenshots, documentation images, clipart, cursors, or bundle resources. These files do not by themselves justify a bundled libpng framework.
+
+The dependency is justified only by active image import/export code.
 
 ## Rule
 
-Do not keep a bundled PNG framework if Leopard-native image APIs can provide the retained V1 behavior.
+Do not remove PNG support before image insertion, embedded images, and RTF image paths are tested.
+
+Do not keep `png.framework` permanently if Leopard-native ImageIO/CoreGraphics can provide the retained behavior.

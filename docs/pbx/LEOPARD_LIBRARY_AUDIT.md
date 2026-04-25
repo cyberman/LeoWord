@@ -408,3 +408,23 @@ Initial conclusion:
 - It may remain during restoration.
 - Final V1 should prefer `NSImage`, ImageIO, CoreGraphics, or Quartz for PNG handling if practical.
 - CLI PNG conversion and thumbnail generation may be deferred.
+
+## PNG Result
+
+`png.framework` is not an editor text-core dependency, but it is involved in image import/export and embedded graphics support.
+
+Relevant active areas include:
+
+- `ut_png.cpp`
+- `ut_png.h`
+- `ie_impGraphic_PNG.cpp`
+- `ie_impGraphic_PNG.h`
+- PNG graphic importer registration
+- RTF/HTML/embedded graphics paths
+
+Initial conclusion:
+
+- `png.framework` may remain during restoration and early V1.
+- It should be treated as a replacement candidate, not a permanent dependency.
+- Final LeoWord should prefer ImageIO/CoreGraphics/NSImage if practical.
+- Image insertion and RTF image behavior must be tested before removing it.
