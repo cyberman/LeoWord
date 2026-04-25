@@ -428,3 +428,21 @@ Initial conclusion:
 - It should be treated as a replacement candidate, not a permanent dependency.
 - Final LeoWord should prefer ImageIO/CoreGraphics/NSImage if practical.
 - Image insertion and RTF image behavior must be tested before removing it.
+
+## PNG Cocoa Importer Result
+
+The Cocoa image importer already uses native AppKit image APIs:
+
+- `NSImage`
+- `NSImageRep`
+- `NSBitmapImageRep`
+- `NSPNGFileType`
+
+It converts Cocoa-readable image formats into PNG byte buffers and then feeds them into `FG_GraphicRaster::setRaster_PNG()`.
+
+Initial conclusion:
+
+- Cocoa already provides the preferred image import front-end.
+- AbiWord still uses PNG as an internal raster interchange format.
+- `png.framework` remains acceptable during restoration.
+- Final LeoWord should investigate replacing direct libpng usage in `ut_png.cpp` and `ie_impGraphic_PNG.*` with ImageIO/CoreGraphics.

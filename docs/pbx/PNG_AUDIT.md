@@ -54,3 +54,41 @@ The dependency is justified only by active image import/export code.
 Do not remove PNG support before image insertion, embedded images, and RTF image paths are tested.
 
 Do not keep `png.framework` permanently if Leopard-native ImageIO/CoreGraphics can provide the retained behavior.
+
+## Cocoa Importer Finding
+
+The Cocoa image importer already uses native Cocoa image APIs.
+
+Relevant file:
+
+- `abi/src/wp/impexp/cocoa/ie_impGraphic_Cocoa.mm`
+
+Observed native APIs:
+
+- `NSImage`
+- `NSImageRep`
+- `NSBitmapImageRep`
+- `NSPNGFileType`
+
+The Cocoa importer accepts Cocoa-readable image data, converts it to PNG via `NSBitmapImageRep`, and then passes the resulting PNG byte buffer into AbiWord's raster graphic layer via `FG_GraphicRaster::setRaster_PNG()`.
+
+## Interpretation
+
+This is an important finding.
+
+LeoWord does not need libpng to make Cocoa read common image formats. The old Cocoa importer already delegates image decoding and conversion to AppKit.
+
+However, AbiWord's internal raster path still expects PNG data as a normalized intermediate format.
+
+Therefore the goal is not to remove PNG as an internal format immediately.
+
+The goal is to remove the bundled `png.framework` dependency where Leopard-native APIs can produce or inspect PNG data.
+
+## Updated Decision
+
+- Keep the existing Cocoa image importer.
+- Prefer it for general image import on Leopard.
+- Keep `png.framework` during restoration.
+- Replace `ut_png.cpp` with ImageIO/CoreGraphics later if practical.
+- Investigate whether `ie_impGraphic_PNG.*` can be superseded by the Cocoa importer or rewritten on top of ImageIO.
+- Do not remove PNG support before testing embedded images, RTF image import/export, and image dimensions.
